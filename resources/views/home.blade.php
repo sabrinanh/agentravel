@@ -14,7 +14,7 @@
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -137,11 +137,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -165,11 +165,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -193,11 +193,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -221,11 +221,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -249,11 +249,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -277,11 +277,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -305,11 +305,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -333,11 +333,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -425,7 +425,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
 						<p><a href="#" class="learn-more">Learn More</a></p>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</section> -->
@@ -441,7 +441,7 @@
 				<div class="col-md-6 text-md-end">
 					<div id="testimonial-nav">
 						<span class="prev" data-controls="prev">Prev</span>
-						
+
 						<span class="next" data-controls="next">Next</span>
 					</div>
 				</div>
@@ -449,7 +449,7 @@
 
 			<div class="row">
 				<div class="col-lg-4">
-					
+
 				</div>
 			</div>
 			<div class="testimonial-slider-wrap">
@@ -553,7 +553,7 @@
 						</span>
 						<div class="feature-text">
 							<h3 class="heading">2M Properties</h3>
-							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>   
+							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
 						</div>
 					</div> -->
 
@@ -563,7 +563,7 @@
 						</span>
 						<div class="feature-text">
 							<h3 class="heading">Top Rated Agents</h3>
-							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>   
+							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
 						</div>
 					</div> -->
 
@@ -573,7 +573,7 @@
 						</span>
 						<div class="feature-text">
 							<h3 class="heading">Legit Properties</h3>
-							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>   
+							<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
 						</div>
 					</div>
 				</div>
@@ -691,7 +691,7 @@
 
 	<div class="site-footer">
 		<div class="container">
-			
+
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="widget">
@@ -748,10 +748,10 @@
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-					<!-- 
+					<!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 

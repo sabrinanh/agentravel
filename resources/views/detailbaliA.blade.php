@@ -14,7 +14,7 @@
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -114,7 +114,7 @@
 						</div>
 					</div>
 				</div>
-			
+
 				<div class="col-lg-5">
 					<h2 class="heading text-primary">Rp. 950.000 /pax</h2>
 					<p class="meta">California, United States</p>
@@ -141,7 +141,7 @@
 					<p class="text-black-30">9. Free Tol Parkir</p>
 					<p class="text-black-30">10. Tour Leader & Tour Guide Lokal</p>
 
-				
+
 					<div class="d-block agent-box p-5">
 						<div class="img mb-4">
 							<img src="images/person_2-min.jpg" alt="Image" class="img-fluid">
@@ -223,10 +223,10 @@
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-					<!-- 
+					<!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 

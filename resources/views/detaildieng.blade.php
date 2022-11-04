@@ -14,7 +14,7 @@
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -78,7 +78,7 @@
 	</nav>
 
 
-	<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_3.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/seedetail/dieng-bg.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -108,9 +108,9 @@
 				<div class="col-lg-7">
 					<div class="img-property-slide-wrap">
 						<div class="img-property-slide">
-							<img src="images/img_1.jpg" alt="Image" class="img-fluid">
-							<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-							<img src="images/img_3.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/dieng-1.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/dieng-2.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/dieng-3.jpg" alt="Image" class="img-fluid">
 						</div>
 					</div>
 				</div>
@@ -136,7 +136,7 @@
                     <p class="text-black-50">9. Free Toll & Parkir</p>
                     <p class="text-black-50">10. Free softcopy dokumentasi</p>
 
-					
+
 					<div class="d-block agent-box p-5">
 						<div class="img mb-4">
 							<img src="images/person_2-min.jpg" alt="Image" class="img-fluid">
@@ -218,10 +218,10 @@
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-					<!-- 
+					<!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 

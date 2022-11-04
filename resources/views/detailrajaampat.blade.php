@@ -14,7 +14,7 @@
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -78,7 +78,7 @@
 	</nav>
 
 
-	<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_3.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/seedetail/rajaampat-bg.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -105,17 +105,17 @@
 	<div class="section">
 		<div class="container">
 			<div class="row justify-content-between">
-				<div class="col-lg-7">
+				<div class="col-lg-6">
 					<div class="img-property-slide-wrap">
 						<div class="img-property-slide">
-							<img src="images/img_1.jpg" alt="Image" class="img-fluid">
-							<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-							<img src="images/img_3.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/rajaampat-1.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/rajaampat-2.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/rajaampat-3.jpg" alt="Image" class="img-fluid">
 						</div>
 					</div>
 				</div>
-			
-				<div class="col-lg-4">
+
+				<div class="col-lg-5">
 					<h2 class="heading text-primary">Rp. 3.999.999 /pax</h2>
 					<p class="meta">California, United States</p>
 					<h5 class="heading text-primary">Destinasi Wisata:</h5>
@@ -147,7 +147,7 @@
 					<p class="text-black-30">2. Makan & minum di luar program</p>
 					<p class="text-black-30">3. PIN Raja Ampat (WNI : 500.000 & WNA : 1.000.000)</p>
                     <p class="text-black-30">4. Obat-obatan pribadi</p>
-                    <p class="text-black-30">5. Tipping guide lokal (sukarela</p>
+                    <p class="text-black-30">5. Tipping guide lokal (sukarela)</p>
 
 					<div class="d-block agent-box p-5">
 						<div class="img mb-4">
@@ -230,10 +230,10 @@
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-					<!-- 
+					<!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 
