@@ -44,13 +44,13 @@
 		<div class="container">
 			<div class="menu-bg-wrap">
 				<div class="site-navigation">
-					<a href="index.html" class="logo m-0 float-start">Property</a>
+					<a href="home" class="logo m-0 float-start">holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
 						<li><a href="home">Home</a></li>
 						<li class="has-children">
-							<a href="properties.html">Properties</a>
-							<ul class="dropdown">
+							<a href="tourpackages">Tour Packages</a>
+							<!-- <ul class="dropdown">
 								<li><a href="#">Buy Property</a></li>
 								<li><a href="#">Sell Property</a></li>
 								<li class="has-children">
@@ -61,11 +61,11 @@
 										<li><a href="#">Sub Menu Three</a></li>
 									</ul>
 								</li>
-							</ul>
+							</ul> -->
 						</li>
 						<li><a href="services">Services</a></li>
 						<li class="active"><a href="about">About</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="contact">Contact Us</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -77,7 +77,7 @@
 		</div>
 	</nav>
 
-	<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_3.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/laboanbajo.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -100,24 +100,22 @@
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-12">
-					<h2 class="font-weight-bold heading text-primary mb-4">About Us</h2>
+					<h2 class="font-weight-bold heading text-primary mb-4">About Holidayz Tour and Travel</h2>
 				</div>
 				<div class="col-lg-6">
-					<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
-					<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, explicabo nihil. Est, autem error cumque ipsum repellendus veniam sed blanditiis unde ullam maxime veritatis perferendis cupiditate, at non esse!</p>
-					<p class="text-black-50">Enim, nisi labore exercitationem facere cupiditate nobis quod autem veritatis quis minima expedita. Cumque odio illo iusto reiciendis, labore impedit omnis, nihil aut atque, facilis necessitatibus asperiores porro qui nam.</p>
-				</div>
-				<div class="col-lg-6">
+					<!-- <p class="text-black-50">Holidayz adalah layanan one stop travel solution secara online maupun offline.</p> -->
+					<p class="text-black-100">Holidayz adalah layanan one stop travel solution secara online maupun offline. kami berfokus pada wisatawan yang ingin explore,liburan, karyawisata di kota-kota yang ada di Indonesia. Tujuan kami adalah untuk memberikan pelayanan yang berkualitas dengan harga yang bersaing.</p>
+			
 					
-					<p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, explicabo nihil. Est, autem error cumque ipsum repellendus veniam sed blanditiis unde ullam maxime veritatis perferendis cupiditate, at non esse!</p>
-					<p class="text-black-50">Enim, nisi labore exercitationem facere cupiditate nobis quod autem veritatis quis minima expedita. Cumque odio illo iusto reiciendis, labore impedit omnis, nihil aut atque, facilis necessitatibus asperiores porro qui nam.</p>
+					<p class="text-black-100">Dengan menyediakan berbagai paket tour yang bertujuan untuk mempermudah wisatawan untuk melakukan tour and travel. Filosofi kami adalah : Enjoy Life, Travel More sehingga klien kami akan mendapatkan pengalaman yang lebih banyak, unik dan berkesan.</p>
+					<p class="text-black-100"></p>
 				</div>
 			</div>
 
 		</div>
 	</div>
 
-	<div class="section pt-0">
+	<!-- <div class="section pt-0">
 		<div class="container">
 			<div class="row justify-content-between mb-5">
 				<div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
@@ -164,8 +162,8 @@
 		<div class="container">
 			<div class="row justify-content-between mb-5">
 				<div class="col-lg-7 mb-5 mb-lg-0">
-					<div class="img-about dots">
-						<img src="images/hero_bg_2.jpg" alt="Image" class="img-fluid">
+					<div class="img-about dots"> -->
+						<!-- <img src="images/hero_bg_2.jpg" alt="Image" class="img-fluid">
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -242,7 +240,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 
@@ -250,7 +248,7 @@
 		<div class="container">
 			<div class="row mb-5 align-items-center">
 				<div class="col-md-6">
-					<h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">The Team</h2>
+					<h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">Our Team</h2>
 				</div>
 				<div class="col-md-6 text-md-end">
 					<div id="testimonial-nav">
@@ -324,7 +322,7 @@
 						</div>
 					</div>
 
-					<div class="item">
+					<!-- <div class="item">
 						<div class="testimonial">
 							<img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle w-25 mb-4">
 							<h3 class="h5 text-primary">Davin Smith</h3>
@@ -341,7 +339,7 @@
 
 
 						</div>
-					</div>
+					</div> -->
 
 				</div>
 			</div>
