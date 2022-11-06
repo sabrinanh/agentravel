@@ -13,69 +13,69 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('SignIn');
+    return view('cust.SignIn');
 });
 
 Route::get('/SignIn', function () {
-    return view('home');
+    return view('cust.home');
 });
 
 Route::get('/tourpackages', function () {
-    return view('tourpackages');
+    return view('cust.tourpackages');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('cust.home');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('cust.about');
 });
 
 Route::get('/services', function () {
-    return view('services');
+    return view('cust.services');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('cust.contact');
 });
 
 Route::get('/signUp', function () {
-    return view('signUp');
+    return view('cust.signUp');
 });
 
 Route::get('/detailbaliA', function () {
-    return view('detailbaliA');
+    return view('cust.detailbaliA');
 });
 
 Route::get('/detaillombok', function () {
-    return view('detaillombok');
+    return view('cust.detaillombok');
 });
 
 Route::get('/detailbandung', function () {
-    return view('detailbandung');
+    return view('cust.detailbandung');
 });
 
 Route::get('/detailmalangA', function () {
-    return view('detailmalangA');
+    return view('cust.detailmalangA');
 });
 
 Route::get('/detaildieng', function () {
-    return view('detaildieng');
+    return view('cust.detaildieng');
 });
 
 Route::get('/detaillabuan', function () {
-    return view('detaillabuan');
+    return view('cust.detaillabuan');
 });
 
 Route::get('/detailkarimun', function () {
-    return view('detailkarimun');
+    return view('cust.detailkarimun');
 });
 
 Route::get('/detailsemarangA', function () {
-    return view('detailsemarangA');
+    return view('cust.detailsemarangA');
 });
 
 Route::get('/detailrajaampat', function () {
-    return view('detailrajaampat');
+    return view('cust.detailrajaampat');
 });
