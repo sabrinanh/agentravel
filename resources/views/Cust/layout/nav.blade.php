@@ -47,7 +47,7 @@
 					<a href="home" class="logo m-0 float-start">Holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li class="active"><a href="#home">Home</a></li>
+						<li class="active"><a href="/home">Home</a></li>
 						<li class="has-children">
 							<a href="tourpackages">Tour Packages</a>
 							<!-- <ul class="dropdown">
