@@ -29,7 +29,7 @@
 					<h2 class="font-weight-bold text-primary heading">Popular Destination</h2>
 				</div>
 				<div class="col-lg-6 text-lg-end">
-					<p><a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">View all destination</a></p>
+					<p><a href="tourpackages" target="_blank" class="btn btn-primary text-white py-3 px-4">View all destination</a></p>
 				</div>
 			</div>
 			<div class="row">
@@ -312,7 +312,7 @@
 		</div>
 	</div>
 
-	<div class="section sec-testimonials">
+	<!-- <div class="section sec-testimonials">
 		<div class="container">
 			<div class="row mb-5 align-items-center">
 				<div class="col-md-6">
@@ -409,6 +409,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </main>
 @endsection

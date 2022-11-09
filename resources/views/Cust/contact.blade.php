@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<title>Property &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
+	<title>Holidayz &mdash; </title>
 </head>
 <body>
 
@@ -44,13 +44,13 @@
 		<div class="container">
 			<div class="menu-bg-wrap">
 				<div class="site-navigation">
-					<a href="index.html" class="logo m-0 float-start">Property</a>
+					<a href="index.html" class="logo m-0 float-start">Holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
 						<li><a href="home">Home</a></li>
 						<li class="has-children">
 							<a href="tourpackages">Tour Packages</a>
-							<ul class="dropdown">
+							<!-- <ul class="dropdown">
 								<li><a href="#">Buy Property</a></li>
 								<li><a href="#">Sell Property</a></li>
 								<li class="has-children">
@@ -59,11 +59,11 @@
 										<li><a href="#">Sub Menu One</a></li>
 										<li><a href="#">Sub Menu Two</a></li>
 										<li><a href="#">Sub Menu Three</a></li>
-									</ul>
-								</li>
+									</ul> -->
+								<!-- </li>
 							</ul>
-						</li>
-						<li><a href="services">Services</a></li>
+						</li> -->
+						<!-- <li><a href="services">Services</a></li> -->
 						<li><a href="about">About</a></li>
 						<li class="active"><a href="contact">Contact Us</a></li>
 					</ul>
@@ -77,7 +77,7 @@
 		</div>
 	</nav>
 
-	<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_1.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/bromocont.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -105,7 +105,7 @@
 						<div class="address mt-2">
 							<i class="icon-room"></i>
 							<h4 class="mb-2">Location:</h4>
-							<p>43 Raymouth Rd. Baltemoer,<br> London 3910</p>
+							<p>Jalan Jojoran III No. 6<br> Surabaya</p>
 						</div>
 
 						<div class="open-hours mt-4">
@@ -113,20 +113,20 @@
 							<h4 class="mb-2">Open Hours:</h4>
 							<p>
 								Sunday-Friday:<br>
-								11:00 AM - 2300 PM
+								11:00 AM - 23:00 PM
 							</p>
 						</div>
 
 						<div class="email mt-4">
 							<i class="icon-envelope"></i>
 							<h4 class="mb-2">Email:</h4>
-							<p>info@Untree.co</p>
+							<p>holidayz@gmail.co</p>
 						</div>
 
 						<div class="phone mt-4">
 							<i class="icon-phone"></i>
 							<h4 class="mb-2">Call:</h4>
-							<p>+1 1234 55488 55</p>
+							<p>+62 85865624720</p>
 						</div>
 
 					</div>
@@ -164,7 +164,7 @@
 				<div class="col-lg-4">
 					<div class="widget">
 						<h3>Contact</h3>
-						<address>43 Raymouth Rd. Baltemoer, London 3910</address>
+						<address>Jalan Jojoran III No.6, Surabaya</address>
 						<ul class="list-unstyled links">
 							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
 							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>

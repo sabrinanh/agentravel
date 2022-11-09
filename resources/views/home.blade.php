@@ -62,8 +62,7 @@
 									</ul>
 								</li>
 							</ul> -->
-						</li>
-						<li><a href="services">Services</a></li>
+						<!-- </li> -->
 						<li><a href="about">About</a></li>
 						<li><a href="contact">Contact Us</a></li>
 					</ul>
@@ -709,7 +708,7 @@
 						<h3>Sources</h3>
 						<ul class="list-unstyled float-start links">
 							<li><a href="#">About us</a></li>
-							<li><a href="#">Services</a></li>
+							<!-- <li><a href="#">Services</a></li> -->
 							<li><a href="#">Vision</a></li>
 							<li><a href="#">Mission</a></li>
 							<li><a href="#">Terms</a></li>
