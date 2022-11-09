@@ -77,6 +77,7 @@ Route::get('/detailsemarangA', function () {
 });
 
 Route::get('/detailrajaampat', function () {
+<<<<<<< Updated upstream
     return view('cust.detailrajaampat');
 });
 
@@ -189,4 +190,11 @@ Route::get('/infokarimun', function () {
 });
 Route::get('/inforajaampat', function () {
     return view('cust.inforajaampat');
+=======
+    return view('detailrajaampat');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+>>>>>>> Stashed changes
 });

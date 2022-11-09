@@ -105,7 +105,7 @@
 	<div class="section">
 		<div class="container">
 			<div class="row justify-content-between">
-				<div class="col-lg-6">
+				<div class="col-lg- 6">
 					<div class="img-property-slide-wrap">
 						<div class="img-property-slide">
 							<img src="images/bali1.jpg" alt="Image" class="img-fluid">

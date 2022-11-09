@@ -62,7 +62,12 @@
 									</ul>
 								</li>
 							</ul> -->
+<<<<<<< Updated upstream
 						<!-- </li> -->
+=======
+						</li>
+						<!-- <li><a href="services">Gallery</a></li> -->
+>>>>>>> Stashed changes
 						<li><a href="about">About</a></li>
 						<li><a href="contact">Contact Us</a></li>
 					</ul>
@@ -107,7 +112,7 @@
 					<h2 class="font-weight-bold text-primary heading">Popular Destination</h2>
 				</div>
 				<div class="col-lg-6 text-lg-end">
-					<p><a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">View all destination</a></p>
+					<p><a href="tourpackages" target="_blank" class="btn btn-primary text-white py-3 px-4">View all destination</a></p>
 				</div>
 			</div>
 			<div class="row">
