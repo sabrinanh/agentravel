@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
 	<link rel="stylesheet" href="css/styleSignUp.css">
 
 	</head>
@@ -32,7 +32,7 @@
 			      </div>
 						<div class="login-wrap p-4 p-md-5">
 	      			<h3 class="mb-3">Create an account</h3>
-							<form action="#" class="signup-form">
+							{{-- <form action="#" class="signup-form"> --}}
 								<div class="row">
 									<div class="col-md-12">
 										<div class="form-group d-flex align-items-center">
@@ -76,12 +76,12 @@
 									</div>
 									<div class="col-md-12">
 										<div class="form-group">
-				            	<button type="submit" class="btn btn-secondary submit p-3">Create an account</button>
+                                            <a href="/"><button type="submit" class="btn btn-secondary submit p-3">Create an account</button></a>
 				            </div>
 									</div>
 								</div>
 
-		          </form>
+		          {{-- </form> --}}
 		          <!-- <div class="social-wrap">
 		          	<p class="or">
 		          		<span>or</span>

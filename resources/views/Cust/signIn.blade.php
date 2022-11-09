@@ -12,14 +12,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <!-- Style -->
     <link rel="stylesheet" href="css/styleSignIn.css">
 
     <!-- <title>Login #2</title> -->
   </head>
   <body>
-  
+
 
   <div class="d-lg-flex half">
     <div class="bg order-1 order-md-2" ><img src="images/baliSignIn.jpg" alt="" style="height:1100px;"></div>
@@ -30,7 +30,7 @@
           <div class="col-md-9">
             <h3>Login to <strong>Holidayz</strong></h3>
             <p class="mb-4"> </p>
-            <form action="#" method="get">
+            {{-- <form action="#" method="get"> --}}
               <div class="form-group first mb-3">
                 <label for="username mg-2">Username</label>
                 <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
@@ -50,7 +50,7 @@
                 </div>
              </div>
              <div class="d-grid gap-2 mt-2">
-                <a href="/"><button class="btn btn-warning"><a href="home" type="button">Sign In</button></a>
+                <a href="/home"><button class="btn btn-warning"><a href="home" type="button">Sign In</button></a>
               </div>
              <!-- <button type="submit" class="btn btn-warning mb-4">Sign in</button> -->
               <!-- <div class="d-flex mb-4 align-items-center">
@@ -65,7 +65,7 @@
               <!-- <button class="btn btn-primary btn-lg btn-block" type="submit">Sign In</button> -->
               <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/signUp"
                 class="link-danger">Sign Up</a></p>
-            </form>
+            {{-- </form> --}}
             <!-- <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-10 me-2"><strong> Don't have an account?</strong></p>
                     <button type="button" class="btn btn-outline-warning">Sign Up</button>
@@ -75,10 +75,10 @@
       </div>
     </div>
 
-    
+
   </div>
-    
-    
+
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
