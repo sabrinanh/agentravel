@@ -14,7 +14,7 @@
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -125,7 +125,7 @@
 					<p class="text-black-30">5. Goedang oleh-oleh</p>
 					<p class="text-black-30">6. Lembah Tumpang</p>
 					<p class="text-black-30">7. Alun-alun Batu</p>
-					
+
 					<h5 class="heading text-primary">Fasilitas Tour:</h5>
 					<p class="text-black-30">1. Transportasi Bus Pariwisata</p>
 					<p class="text-black-30">2. BIG BUS seat 2-2 / 48</p>
@@ -140,18 +140,6 @@
 					<div class="d-block agent-box p-5">
 						<div class="img mb-4">
 							<img src="images/person_2-min.jpg" alt="Image" class="img-fluid">
-						</div>
-						<div class="text">
-							<h3 class="mb-0">Alicia Huston</h3>
-							<div class="meta mb-3">Real Estate</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laborum quo quos omnis sed magnam id ducimus saepe</p>
-							<ul class="list-unstyled social dark-hover d-flex">
-								<li class="me-1"><a href="#"><span class="icon-instagram"></span></a></li>
-								<li class="me-1"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="me-1"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="me-1"><a href="#"><span class="icon-linkedin"></span></a></li>
-
-							</ul>
 						</div>
 					</div>
 				</div>
@@ -218,10 +206,10 @@
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-					<!-- 
+					<!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 
