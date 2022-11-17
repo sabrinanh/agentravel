@@ -1,67 +1,6 @@
-<!-- /*
-* Template Name: Property
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
-
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap5" />
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/style.css">
-
-	<title>Holidayz</title>
-</head>
-<body>
-
-	<div class="site-mobile-menu site-navbar-target">
-		<div class="site-mobile-menu-header">
-			<div class="site-mobile-menu-close">
-				<span class="icofont-close js-menu-toggle"></span>
-			</div>
-		</div>
-		<div class="site-mobile-menu-body"></div>
-	</div>
-
-	<nav class="site-nav">
-		<div class="container">
-			<div class="menu-bg-wrap">
-				<div class="site-navigation">
-					<a href="home" class="logo m-0 float-start">Holidayz</a>
-
-					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li><a href="home">Home</a></li>
-						<li>
-							<a href="tourpackages">Tour Packages</a>
-						<li><a href="about">About</a></li>
-					
-					</ul>
-
-					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
-						<span></span>
-					</a>
-
-				</div>
-			</div>
-		</div>
-	</nav>
+@extends('Cust/layout/nav')
+@section('contain')
+<main id = "main"class="main">
 
 
 	<div class="hero page-inner overlay" style="background-image: url('images/balibg.jpg');">
@@ -115,7 +54,7 @@
 					<p class="text-black-30">8. Cening Bagus</p>
 					<p class="text-black-30">9. Krisna</p>
 					<p class="text-black-30">10. Dewata </p>
-					
+
 					<h5 class="heading text-primary">Fasilitas Tour:</h5>
 					<p class="text-black-30">1. Transportasi Bus Pariwisata</p>
 					<p class="text-black-30">2. BIG BUS seat 2-2 / 48</p>
@@ -210,38 +149,5 @@
 				</div> <!-- /.col-lg-4 -->
 			</div> <!-- /.row -->
 
-			<div class="row mt-5">
-				<div class="col-12 text-center">
-					<!--
-              **==========
-              NOTE:
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
-              **==========
-            -->
-
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
-            </p>
-
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
-
-
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-    	<div class="spinner-border" role="status">
-    		<span class="visually-hidden">Loading...</span>
-    	</div>
-    </div>
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
-  </html>
+        </main>
+        @endsection
