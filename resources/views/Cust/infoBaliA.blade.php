@@ -95,13 +95,7 @@
     <!-- <p class="card-text"> 10 Januari 2023 - 13 Januari 2023</p> -->
     <!-- <h5 class="card-text">Titik Kumpul </h5> -->
     <!-- <p class="card-text"> Holidayz Tour and Travel Office, Jl. Basuki Rahmat No.122 - 138, Embong Kaliasin, Kec. Genteng, Kota SBY, Jawa Timur 60271 --> -->
-<!-- </p>
-    <a href="formpesanBaliA" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-footer text-muted">
-    2 days ago
-  </div>
-</div> -->
+
 
 
 <div class="container px-4 px-lg-5">
@@ -162,8 +156,11 @@
               </button>
           </span>
       </div>
-	<p></p>
-</div>
+      </p>
+  </div>
+  
+
+
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

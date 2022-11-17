@@ -41,7 +41,7 @@
 				</div>
 				<div class="col-lg-5">
 					<h2 class="heading text-primary">Rp. 750.000 /pax</h2>
-					<p class="meta">California, United States</p>
+					<p class="meta">2 Hari 1 Malam</p>
                     <h5 class="heading text-primary">Destinasi Wisata:</h5>
 					<p class="text-black-50">1. Tangkuban Perahu</p>
                     <p class="text-black-50">2. Alun-alun Bandung</p>

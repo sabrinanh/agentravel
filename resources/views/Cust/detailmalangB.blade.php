@@ -52,7 +52,16 @@
 							<a href="tourpackages">Tour Packages</a>
 						
 						<li><a href="about">About</a></li>
-					
+						<li class="has-children">
+						<a href="profile"><img src="../assets/images/1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+							<ul class="dropdown">
+								<li><a href="Profile">Edit profile</a></li>
+								<li><a href="">My order</a></li>
+								<li><a href="">Logout</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -103,7 +112,7 @@
 				</div>
 				<div class="col-lg-5">
 				<h2 class="heading text-primary">Rp. 550.000 /pax</h2>
-					<p class="meta">California, United States</p>
+					<p class="meta">2 Hari 1 Malam</p>
 					<h5 class="heading text-primary">Destinasi Wisata:</h5>
 					<p class="text-black-30">1. Museum Angkut</p>
 					<p class="text-black-30">2. Alun-alun Batu</p>

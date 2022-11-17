@@ -73,22 +73,22 @@
 												</label>
 											</div>
 				            </div>
-									<!-- </div> -->
-									<!-- <div class="col-md-12">
+									</div>
+									<div class="col-md-12"> 
 										<div class="form-group">
                                             <a href="/signIn"><button type="submit" class="btn btn-secondary submit p-3">Create an account</button></a>
 				            </div>
 									</div>
-								</div> -->
+								</div>
 								
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -104,7 +104,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 		         
 		          <!-- <div class="social-wrap">
