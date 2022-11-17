@@ -47,13 +47,11 @@
 					<a href="index.html" class="logo m-0 float-start">Holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li><a href="home">Home</a></li>
+						<li><a href="homeguest">Home</a></li>
 						<li>
-							<a href="tourpackages">Tour Packages</a>
+							<a href="tourpackguest">Tour Packages</a>
 						
-						<li><a href="about">About</a></li>
-					
-
+						<li><a href="aboutguest">About</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -76,7 +74,7 @@
 					<nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
 						<ol class="breadcrumb text-center justify-content-center">
 							<li class="breadcrumb-item "><a href="home">Home</a></li>
-							<li class="breadcrumb-item "><a href="tourpackages">Tour Packages</a></li>
+							<li class="breadcrumb-item "><a href="tourpackguest">Tour Packages</a></li>
 							<li class="breadcrumb-item active text-white-50" aria-current="page">Lombok Tour Package</li>
 						</ol>
 					</nav>
@@ -125,7 +123,7 @@
                     <p class="text-black-50">8. Tour Guide Lokal dan Tour Leader</p>
                     <p class="text-black-50">9. Dokumentasi softcopy (Video & Foto)</p>
 
-					<a href="infolombok" class="btn btn-primary py-2 px-3">Pesan</a>
+					<a href="signIn" class="btn btn-primary py-2 px-3">Pesan</a>
 
 
 				</div>

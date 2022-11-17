@@ -50,7 +50,7 @@
                 </div>
              </div>
              <div class="d-grid gap-2 mt-2">
-                <a href="/home"><button class="btn btn-warning"><a href="home" type="button">Sign In</button></a>
+                <a href="/home2"><button class="btn btn-warning"><a href="home" type="button">Sign In</button></a>
               </div>
              <!-- <button type="submit" class="btn btn-warning mb-4">Sign in</button> -->
               <!-- <div class="d-flex mb-4 align-items-center">

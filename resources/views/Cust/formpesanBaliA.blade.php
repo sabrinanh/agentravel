@@ -101,7 +101,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
                     <h2 class="mt-0 text-light"></h2>
-                        <h2 class="mt-0 text-light">Booking Now</h2>
+                        <h2 class="mt-0 te					xt-light">Booking Now</h2>
                         <hr class="divider" />
                         <p class="text-light mb-5"></p>
                     </div>

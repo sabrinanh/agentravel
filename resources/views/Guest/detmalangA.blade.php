@@ -47,13 +47,13 @@
 					<a href="index.html" class="logo m-0 float-start">Holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li><a href="home">Home</a></li>
+						<li><a href="homeguest">Home</a></li>
 						<li>
-							<a href="tourpackages">Tour Packages</a>
-						
-						<li><a href="about">About</a></li>
-					
+							<a href="tourpackguest">Tour Packages</a>
+							
+						</li>
 
+						<li><a href="aboutguest">About</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -66,18 +66,18 @@
 	</nav>
 
 
-	<div class="hero page-inner overlay" style="background-image: url('images/lombok.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/seedetail/malang-bg.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-9 text-center mt-5">
-					<h1 class="heading" data-aos="fade-up">Lombok Tour Package</h1>
+					<h1 class="heading" data-aos="fade-up">Malang A Tour Package</h1>
 
 					<nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
 						<ol class="breadcrumb text-center justify-content-center">
 							<li class="breadcrumb-item "><a href="home">Home</a></li>
-							<li class="breadcrumb-item "><a href="tourpackages">Tour Packages</a></li>
-							<li class="breadcrumb-item active text-white-50" aria-current="page">Lombok Tour Package</li>
+							<li class="breadcrumb-item "><a href="tourpackguest">PTour Packages</a></li>
+							<li class="breadcrumb-item active text-white-50" aria-current="page">Malang A Tour</li>
 						</ol>
 					</nav>
 
@@ -96,36 +96,37 @@
 				<div class="col-lg-6">
 					<div class="img-property-slide-wrap">
 						<div class="img-property-slide">
-							<img src="images/lombok2.jpg" alt="Image" class="img-fluid">
-							<img src="images/lombok1.jpg" alt="Image" class="img-fluid">
-							<img src="images/lombok3.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/malangA-1.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/malangA-2.jpg" alt="Image" class="img-fluid">
+							<img src="images/seedetail/malangA-3.jpg" alt="Image" class="img-fluid">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-5">
-					<h2 class="heading text-primary">Rp. 1.500.000 /pax</h2>
+				<h2 class="heading text-primary">Rp. 450.000 /pax</h2>
 					<p class="meta">California, United States</p>
-                    <h5 class="heading text-primary">Destinasi Wisata:</h5>
-					<p class="text-black-50">1. Gili Trawangan</p>
-                    <p class="text-black-50">2. Desa Sade</p>
-                    <p class="text-black-50">3. Bukit Malimbu</p>
-                    <p class="text-black-50">4. Desa Sukarare</p>
-                    <p class="text-black-50">5. Pantai Senggigi</p>
-                    <p class="text-black-50">6. Tanjung Aan</p>
-                    <p class="text-black-50">7. Islamic Center</p>
-                    <p class="text-black-50">8. Kuta Mandalika</p>
-					<h5 class="heading text-primary">Fasilitas Tour:</h5>
-                    <p class="text-black-50">1. Bus Pariwisata 2-2 seat</p>
-                    <p class="text-black-50">2. Penyeberangan Ketapang - Lembar (Gili Trawangan)</p>
-                    <p class="text-black-50">3. Hotel 2 Malam (1 kamar 2 Org)</p>
-                    <p class="text-black-50">4. Tiket Masuk Wisata</p>
-                    <p class="text-black-50">5. Makan 8x (prasmanan)</p>
-                    <p class="text-black-50">6. Snack Box 1x</p>
-                    <p class="text-black-50">7. Air Mineral Botol (1 botol tiap hari)</p>
-                    <p class="text-black-50">8. Tour Guide Lokal dan Tour Leader</p>
-                    <p class="text-black-50">9. Dokumentasi softcopy (Video & Foto)</p>
+					<h5 class="heading text-primary">Destinasi Wisata:</h5>
+					<p class="text-black-30">1. Eco Green Park</p>
+					<p class="text-black-30">2. Petik apel</p>
+					<p class="text-black-30">3. Kebun Raya</p>
+					<p class="text-black-30">4. Alun-alun Malang</p>
+					<p class="text-black-30">5. Goedang oleh-oleh</p>
+					<p class="text-black-30">6. Lembah Tumpang</p>
+					<p class="text-black-30">7. Alun-alun Batu</p>
 
-					<a href="infolombok" class="btn btn-primary py-2 px-3">Pesan</a>
+					<h5 class="heading text-primary">Fasilitas Tour:</h5>
+					<p class="text-black-30">1. Transportasi Bus Pariwisata</p>
+					<p class="text-black-30">2. BIG BUS seat 2-2 / 48</p>
+					<p class="text-black-30">3. Hotel 1 Malam (1 kamar isi 2-3 orang)</p>
+					<p class="text-black-30">4. Tiket Masuk Wisata</p>
+					<p class="text-black-30">5. Makan 2x prasmanan</p>
+					<p class="text-black-30">6. Snack 1x</p>
+					<p class="text-black-30">7. Air Mineral botol</p>
+					<p class="text-black-30">8. Free Dokumentasi softcopy</p>
+					<p class="text-black-30">9. Free Tol Parkir</p>
+					<p class="text-black-30">10. Tour Leader & Tour Guide Lokal</p>
+					
+					<a href="signIn" class="btn btn-primary py-2 px-3">Pesan</a>
 
 
 				</div>

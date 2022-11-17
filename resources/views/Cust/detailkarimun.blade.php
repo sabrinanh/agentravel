@@ -73,10 +73,9 @@
 					<p class="text-black-30">2. Belanja Kebutuhan Pribadi dll</p>
 					<p class="text-black-30">3. Pengeluaran Yang Tidak Termasuk Dalam Program</p>
 
-					<div class="d-block agent-box p-5">
-						<div class="img mb-4">
-							<img src="images/person_2-min.jpg" alt="Image" class="img-fluid">
-						</div>
+					<a href="infokarimun" class="btn btn-primary py-2 px-3">Pesan</a>
+
+				
 
 					</div>
 				</div>

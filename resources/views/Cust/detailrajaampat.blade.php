@@ -73,11 +73,9 @@
                     <p class="text-black-30">4. Obat-obatan pribadi</p>
                     <p class="text-black-30">5. Tipping guide lokal (sukarela)</p>
 
-					<div class="d-block agent-box p-5">
-						<div class="img mb-4">
-							<img src="images/person_2-min.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
+					<a href="inforajaampat" class="btn btn-primary py-2 px-3">Pesan</a>
+
+				
 				</div>
 			</div>
 		</div>

@@ -47,9 +47,10 @@
 					<a href="index.html" class="logo m-0 float-start"></a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li><a href="home">Home</a></li>
-						<li class="active">
-							<a href="tourpackages">Tour Packages</a>
+						<li><a href="homeguest">Home</a></li>
+						<li class="active"><a href="tourpackguest">Tour Packages</a></li>
+						<li>
+							<!-- <a href="tourpackguest">Tour Packages</a> -->
 							<!-- <ul class="dropdown">
 								<li><a href="#">Buy Property</a></li>
 								<li><a href="#">Sell Property</a></li>
@@ -64,7 +65,7 @@
 							</ul> -->
 						</li>
 						<!-- <li><a href="gallery">Gallery</a></li> -->
-						<li><a href="about">About</a></li>
+						<li><a href="aboutguest">About</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -101,24 +102,6 @@
 				<div class="col-lg-6 text-center mx-auto">
 					<h2 class="font-weight-bold text-primary heading">View all destination</h2>
 				</div>	
-
-				<div class="form-floating">
-  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option selected>Bulan</option>
-    <option value="1">Januari</option>
-    <option value="2">Februari</option>
-    <option value="3">Maret</option>
-	<option value="4">April</option>
-	<option value="5">Mei</option>
-	<option value="6">Juni</option>
-	<option value="7">Juli</option>
-	<option value="8">Agustus</option>
-	<option value="9">September</option>
-	<option value="10">Oktober</option>
-	<option value="11">November</option>
-	<option value="12">Desember</option>
-  </select>
-</div>
 	
 	<div class="section section-properties">
 		<div class="container">
@@ -146,7 +129,7 @@
 											</span>
 										</div>
 
-										<a href="detailbaliA" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detbaliA" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 						
@@ -176,7 +159,7 @@
 											</span>
 										</div>
 
-										<a href="detaillombok" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detlombok" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -206,7 +189,7 @@
 											</span>
 										</div>
 
-										<a href="detailbandung" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detbandung" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -237,7 +220,7 @@
 											</span>
 										</div>
 
-										<a href="detailmalangA" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detmalangA" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -267,7 +250,7 @@
 											</span>
 										</div>
 
-										<a href="detaildieng" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detdieng" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -296,7 +279,7 @@
 											</span>
 										</div>
 
-										<a href="detailkarimun" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detkarimun" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -326,7 +309,7 @@
 											</span>
 										</div>
 
-										<a href="detailsemarangA" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detsemarangA" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -357,7 +340,7 @@
 											</span>
 										</div>
 
-										<a href="detaillabuan" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detlabuan" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -388,7 +371,7 @@
 											</span>
 										</div>
 
-										<a href="detailrajaampat" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="detrajaampat" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -419,7 +402,7 @@
 											</span>
 										</div>
 
-										<a href="detailsemarangB" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="signIn" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -450,7 +433,7 @@
 											</span>
 										</div>
 
-										<a href="detailmalangB" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="signIn" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
@@ -482,7 +465,7 @@
 											</span>
 										</div>
 
-										<a href="detailbaliB" class="btn btn-primary py-2 px-3">See details</a>
+										<a href="signIn" class="btn btn-primary py-2 px-3">See details</a>
 									</div>
 								</div>
 					</div> <!-- .item -->

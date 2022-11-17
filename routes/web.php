@@ -13,12 +13,65 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('cust.SignIn');
+    return view('guest.homeguest');
 });
 
-Route::get('/SignIn', function () {
-    return view('cust.home');
+Route::get('/homeguest', function () {
+    return view('guest.homeguest');
 });
+
+Route::get('/detbaliA', function () {
+    return view('guest.detbaliA');
+});
+
+Route::get('/detbandung', function () {
+    return view('guest.detbandung');
+});
+
+Route::get('/detdieng', function () {
+    return view('guest.detdieng');
+});
+
+Route::get('/detkarimun', function () {
+    return view('guest.detkarimun');
+});
+
+Route::get('/detlabuan', function () {
+    return view('guest.detlabuan');
+});
+
+Route::get('/detlombok', function () {
+    return view('guest.detlombok');
+});
+
+Route::get('/detmalangA', function () {
+    return view('guest.detmalangA');
+});
+
+Route::get('/detrajaampat', function () {
+    return view('guest.detrajaampat');
+});
+
+Route::get('/detsemarangA', function () {
+    return view('guest.detsemarangA');
+});
+
+Route::get('/tourpackguest', function () {
+    return view('guest.tourpackguest');
+});
+
+Route::get('/aboutguest', function () {
+    return view('guest.aboutguest');
+});
+
+Route::get('/Profile', function () {
+    return view('cust.Profile');
+});
+
+
+// Route::get('/SignIn', function () {
+//     return view('cust.home');
+// });
 
 Route::get('/tourpackages', function () {
     return view('cust.tourpackages');
@@ -42,6 +95,10 @@ Route::get('/contact', function () {
 
 Route::get('/signUp', function () {
     return view('cust.signUp');
+});
+
+Route::get('/signIn', function () {
+    return view('cust.signIn');
 });
 
 Route::get('/detailbaliA', function () {
@@ -77,7 +134,6 @@ Route::get('/detailsemarangA', function () {
 });
 
 Route::get('/detailrajaampat', function () {
-<<<<<<< Updated upstream
     return view('cust.detailrajaampat');
 });
 
@@ -176,25 +232,27 @@ Route::get('/formpesanraja', function () {
 Route::get('/infodieng', function () {
     return view('cust.infodieng');
 });
+
 Route::get('/infolabuan', function () {
     return view('cust.infolabuan');
 });
+
 Route::get('/infolombok', function () {
     return view('cust.infolombok');
 });
+
 Route::get('/infobandung', function () {
     return view('cust.infobandung');
 });
+
 Route::get('/infokarimun', function () {
     return view('cust.infokarimun');
 });
+
 Route::get('/inforajaampat', function () {
     return view('cust.inforajaampat');
-=======
-    return view('detailrajaampat');
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
->>>>>>> Stashed changes
+Route::get('/editpaketbali', function () {
+    return view('marketing.editpaketbali');
 });

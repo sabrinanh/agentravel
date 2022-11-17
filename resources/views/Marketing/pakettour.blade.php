@@ -71,9 +71,13 @@
 											</span>
 										</div>
 
-										<a href="detailbaliA" class="btn btn-primary py-2 px-3">Edit</a>
+										<a href="editpaketbali" class="btn btn-primary py-2 px-3">Edit</a>
 									</div>
 								</div>
+
+                            
+                                
+                                
 						
 					</div> <!-- .item -->
 				</div>

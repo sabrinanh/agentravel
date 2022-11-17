@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<title>Holidayz</title>
+	<title>Property &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
 </head>
 <body>
 
@@ -47,9 +47,9 @@
 					<a href="home" class="logo m-0 float-start">holidayz</a>
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li><a href="home">Home</a></li>
+						<li><a href="homeguest">Home</a></li>
 						<li>
-							<a href="tourpackages">Tour Packages</a>
+							<a href="tourpackguest">Tour Packages</a>
 							<!-- <ul class="dropdown">
 								<li><a href="#">Buy Property</a></li>
 								<li><a href="#">Sell Property</a></li>
@@ -64,7 +64,7 @@
 							</ul> -->
 						<!-- </li>
 						<li><a href="services">Services</a></li> -->
-						<li class="active"><a href="about">About</a></li>
+						<li class="active"><a href="aboutguest">About</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -268,17 +268,12 @@
 					<div class="item">
 						<div class="testimonial">
 							<img src="images/aisya.png" alt="Image" class="img-fluid rounded-circle w-25 mb-4">
-							<h3 class="h5 text-primary">Aisya Arsya K</h3>
+							<h3 class="h5 text-primary">Aisyah Arsya Kamelia</h3>
 							<p class="text-black-50">Project Manager</p>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
+					
 
 						</div>
 					</div>
@@ -289,14 +284,9 @@
 							<h3 class="h5 text-primary">Regyna Ayu Sabila</h3>
 							<p class="text-black-50">Programmer</p>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
+							
 
 
 						</div>
@@ -308,14 +298,9 @@
 							<h3 class="h5 text-primary">Sabrina Nurul Hafidha</h3>
 							<p class="text-black-50">Programmer</p>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
+							
 
 
 						</div>
@@ -327,14 +312,9 @@
 							<h3 class="h5 text-primary">Fitriah Dwi Mulyani</h3>
 							<p class="text-black-50">Analyst System</p>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
+						
 
 
 						</div>
@@ -346,15 +326,9 @@
 							<h3 class="h5 text-primary">Reicya Anggiaulya</h3>
 							<p class="text-black-50">Design Analyst</p>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-
+							
 
 						</div>
 					</div>
@@ -362,18 +336,12 @@
 					<div class="item">
 						<div class="testimonial">
 							<img src="images/bila.jpg" alt="Image" class="img-fluid rounded-circle w-25 mb-4">
-							<h3 class="h5 text-primary">Nabila Wahab R</h3>
-							<p class="text-black-50">Design Analyst</p>
+							<h3 class="h5 text-primary">Nabiilah Roosyidah Wahab</h3>
+							<p3 class="text-black-50">Design Analyst</p3>
 
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
 
-							<ul class="social list-unstyled list-inline dark-hover">
-								<li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
-								<li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-
+						
 
 						</div>
 					</div>

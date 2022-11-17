@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<title>Property &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
+	<title>Holidayz</title>
 </head>
 <body>
 
@@ -48,10 +48,10 @@
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
 						<li><a href="home">Home</a></li>
-						<li class="has-children">
+						<li>
 							<a href="tourpackages">Tour Packages</a>
 						<li><a href="about">About</a></li>
-						<li class=""><a href="contact">Contact Us</a></li>
+	
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -84,50 +84,86 @@
 		</div>
 	</div>
    
-    <div class="card text-center">
-  <div class="card-header">
+    <!-- <div class="card text-center">
+  <div class="card-header"> -->
     <!-- Featured -->
-  </div>
-  <div class="card-body">
-    <h3 class="card-title">Bali Tour Package</h3>
+  <!-- </div> -->
+  <!-- <div class="card-body"> -->
+    <!-- <h3 class="card-title">Bali Tour Package</h3> -->
 
-    <h5 class="card-text-calendar-event">Tanggal Keberangkatan</h5>
-    <p class="card-text"> 10 Januari 2023 - 13 Januari 2023</p>
-    <h5 class="card-text">Titik Kumpul </h5>
-    <p class="card-text"> Holidayz Tour and Travel Office, Jl. Basuki Rahmat No.122 - 138, Embong Kaliasin, Kec. Genteng, Kota SBY, Jawa Timur 60271
-</p>
+    <!-- <h5 class="card-text-calendar-event">Tanggal Keberangkatan</h5> -->
+    <!-- <p class="card-text"> 10 Januari 2023 - 13 Januari 2023</p> -->
+    <!-- <h5 class="card-text">Titik Kumpul </h5> -->
+    <!-- <p class="card-text"> Holidayz Tour and Travel Office, Jl. Basuki Rahmat No.122 - 138, Embong Kaliasin, Kec. Genteng, Kota SBY, Jawa Timur 60271 --> -->
+<!-- </p>
     <a href="formpesanBaliA" class="btn btn-primary">Go somewhere</a>
   </div>
   <div class="card-footer text-muted">
     2 days ago
   </div>
-</div>
-   
+</div> -->
 
 
-					<!--
-              **==========
-              NOTE:
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
-              **==========
-            -->
-<!-- 
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
-            
-
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
-
-
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-    	<div class="spinner-border" role="status">
-    		<span class="visually-hidden">Loading...</span>
-    	</div>
+<div class="container px-4 px-lg-5">
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+       Tanggal Keberangkatan
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>10 Januari 2023 - 13 Januari 2023</strong> <code></code>
     </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+       Titik Kumpul
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong> Holidayz Tour and Travel Office, Jl. Basuki Rahmat No.122 - 138, Embong Kaliasin, Kec. Genteng, Kota SBY, Jawa Timur 60271</strong>  <code></code>
+      </div>
+    </div>
+	<div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      Pilih Pax
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <!-- <strong>900.000</strong> <code></code>
+    </div>
+  </div>
+  </div>
+</div> -->
+
+<div class="container px-4 px-lg-5">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+  <div class="center">
+      </p><div class="input-group">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
+                <span class="glyphicon glyphicon-minus"></span>
+              </button>
+          </span>
+          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+          </span>
+      </div>
+	<p></p>
+</div>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -135,6 +171,7 @@
     <script src="js/aos.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
   </html>

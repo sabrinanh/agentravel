@@ -58,7 +58,7 @@
 					<p class="text-black-30">9. Free Tol Parkir</p>
 					<p class="text-black-30">10. Tour Leader & Tour Guide Lokal</p>
 
-                    <a href="detailbaliA" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="infosemarangA" class="btn btn-primary py-2 px-3">Pesan</a>
 
 				</div>
 			</div>

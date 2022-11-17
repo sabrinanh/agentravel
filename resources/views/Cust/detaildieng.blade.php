@@ -1,7 +1,7 @@
 @extends('Cust/layout/nav')
 @section('contain')
 <main id = "main"class="main">
-	<div class="hero page-inner overlay" style="background-image: url('images/hero_bg_3.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('images/seedetail/dieng-bg.jpg');">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -58,6 +58,8 @@
                     <p class="text-black-50">8. Banner Tour</p>
                     <p class="text-black-50">9. Free Toll & Parkir</p>
                     <p class="text-black-50">10. Free softcopy dokumentasi</p>
+
+					<a href="infodieng" class="btn btn-primary py-2 px-3">Pesan</a>
 
 
 				</div>
