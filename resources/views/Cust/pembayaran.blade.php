@@ -38,7 +38,7 @@
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bca1.jpg">  Transfer BCA</a>
+                                    <a href="pembayaran1" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bca1.jpg">  Transfer BCA</a>
                                   </div>
                                 <div class="mb-4">
                                     <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bri.jpg">  Transfer BRI</a>
@@ -61,10 +61,10 @@
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput">Transfer BCA</a>
+                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput">Cicilan 3x = Rp.633.400</a>
                                   </div>
                                 <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bca1.jpg">  Transfer BCA</a>
+                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput">Cicilan 5x</a>
                                   </div>
                             </div>
                         </div>

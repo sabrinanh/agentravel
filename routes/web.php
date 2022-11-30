@@ -260,3 +260,11 @@ Route::get('/editpaketbali', function () {
 Route::get('/pembayaran', function () {
     return view('cust.pembayaran');
 });
+
+Route::get('/pembayaran1', function () {
+    return view('cust.pembayaran1');
+});
+
+Route::get('/pembayarantf', function () {
+    return view('cust.pembayarantf');
+});

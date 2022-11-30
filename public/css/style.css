@@ -6830,6 +6830,10 @@ textarea.form-control-lg {
     margin-right: auto !important;
     margin-left: 450px; }
 
+.mx-auto4 {
+    margin-right: auto !important;
+    margin-left:30px; }
+
 .bi-calendar-fill{
     color:#004040;
 }
