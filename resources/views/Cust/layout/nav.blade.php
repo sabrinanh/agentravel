@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/tiny-slider.css">
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
+    <link href="assets/vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 	<title>Holidayz &mdash; </title>
 </head>
@@ -72,9 +73,9 @@
   <li><a href="">my order</a></li>
   </ul>
 </div> -->
-						
+
 					</ul>
-					
+
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
 						<span></span>
