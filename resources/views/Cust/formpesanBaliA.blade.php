@@ -36,7 +36,7 @@
 					<div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Peserta 1
+        <i><i class="bi bi-person-fill"></i></i>Peserta 1
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -65,6 +65,6 @@
     </div>
   </div>
 </div>
-<a href="/pembayaran" class="btn btn-primary gap-2 col-5 mx-auto2">Pesan</a>
+<a href="/pembayaran" class="btn btn-primary gap-2 col-5 mx-auto3">Pesan</a>
 </main>
 @endsection

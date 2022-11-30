@@ -91,13 +91,13 @@ body {
   .card-margin {
     margin-bottom: 1.875rem;
     margin-top: 20px;
-    margin-left : 70px;
+    margin-left : 200px;
 }
 
 .accordion-margin {
     margin-top: 20px;
-    margin-left : 250px;
-    margin-right : 250px;
+    margin-left : 200px;
+    margin-right : 200px;
 }
 
 .card1 {
@@ -6825,7 +6825,40 @@ textarea.form-control-lg {
 
     .mx-auto2 {
         margin-right: auto !important;
-        margin-left: 450px; }
+        margin-left: 11px; }
+.mx-auto3 {
+    margin-right: auto !important;
+    margin-left: 450px; }
+
+.bi-calendar-fill{
+    color:#004040;
+}
+.bi-credit-card-fill{
+    color:#004040;
+}
+.bi-calendar4{
+    color:#004040;
+}
+
+.bi-geo-alt-fill{
+    color:#004040;
+}
+
+.bi-person-fill{
+    color:#004040;
+}
+
+.row1{
+    border: 1px solid grey;
+}
+
+.box1{
+    padding: 30px;
+    background:#ffffff;
+    margin: 5px 0px;
+    text-align: center;
+}
+
 .my-0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important; }

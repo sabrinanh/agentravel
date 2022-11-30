@@ -26,16 +26,16 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12" >
+            <div class="col-lg-10" >
                 <div class="card1 card-margin">
                     <div class="card-header no-border">
                         <h4 class="card-title"><b>Bali Tour Package</b></h4>
                     </div>
                     <div class="card-body pt-0">
                         <div class="widget-49 widget-49-meeting-points">
-                                <p class="widget-49-meeting-item"><span>Tanggal keberangkatan <b>10 Jan 2023 - 13 Jan 2023</b></span></p>
-                                <p class="widget-49-meeting-item" style="margin-top: 10px"><span>Titik Kumpul <b>Holidayz Tour and Travel Office</b></span></p>
-                                <p class="widget-49-meeting-item"><span><b>Jl. Raya Prapen No.23 A, Prapen, Kec. Tenggilis Mejoyo, Kota SBY, Jawa Timur 60239</b></span></p>
+                                <p class="widget-49-meeting-item"><i><i class="bi bi-calendar4"></i></i><span>  Tanggal keberangkatan <b>10 Jan 2023 - 13 Jan 2023</b></span></p>
+                                <p class="widget-49-meeting-item" style="margin-top: 10px"><i><i class="bi bi-geo-alt-fill"></i></i><span>  Titik Kumpul <b>Holidayz Tour and Travel Office</b></span></p>
+                                <p class="widget-49-meeting-item"><span><b>   Jl. Raya Prapen No.23 A, Prapen, Kec. Tenggilis Mejoyo, Kota SBY, Jawa Timur 60239</b></span></p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-            <div class="col-lg-14" >
+            <div class="col-lg-10" >
                 <div class="card1 card-margin">
                     <div class="card-header no-border">
                         <h5 class="card-title">Pack (Bali Tour Package)</h5>
@@ -58,23 +58,23 @@
                                 <p class="widget-49-meeting-item"><span><b>Rp960.000</b></span></p>
                         </div>
                     </div>
-            <div class="center">
-                </p><div class="input-group">
-                    <span class="input-group-btn">
-                        <button type="button" class="btn btn-secondary btn-number"  data-type="minus" data-field="quant[2]">
-                            <span class="glyphicon glyphicon-minus"></span>
-                        </button>
-                    </span>
-                    <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
-                    <span class="input-group-btn">
-                        <button type="button" class="btn btn-secondary btn-number" data-type="plus" data-field="quant[2]">
-                            <span class="glyphicon glyphicon-plus"></span>
-                        </button>
-                    </span>
+                <div class="center">
+                    </p><div class="input-group">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-secondary btn-number"  data-type="minus" data-field="quant[2]">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                        </span>
+                        <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-secondary btn-number" data-type="plus" data-field="quant[2]">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                    <p></p>
+                    <a href="formpesanBaliA" class="btn btn-primary gap-2 col-10 mx-auto2">Pesan</a>
                 </div>
-                <p></p>
-                <a href="formpesanBaliA" class="btn btn-primary gap-2 col-1 mx-auto1">Pesan</a>
-            </div>
             </div>
 
             </div>
