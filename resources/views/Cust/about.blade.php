@@ -65,6 +65,16 @@
 						<!-- </li>
 						<li><a href="services">Services</a></li> -->
 						<li class="active"><a href="about">About</a></li>
+						<li class="has-children">
+						<a href="profile"><img src="../assets/images/1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+							<ul class="dropdown">
+								<li><a href="Profile">Edit profile</a></li>
+								<li><a href="">My order</a></li>
+								<li><a href="">Logout</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">

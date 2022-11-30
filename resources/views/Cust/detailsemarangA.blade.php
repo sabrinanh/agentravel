@@ -37,7 +37,7 @@
 
 				<div class="col-lg-4">
 					<h2 class="heading text-primary">Rp. 700.000 /pax</h2>
-					<p class="meta">California, United States</p>
+					<p class="meta">2 Hari 1 Malam</p>
 					<h5 class="heading text-primary">Destinasi Wisata:</h5>
 					<p class="text-black-30">1. Masiid Agung</p>
 					<p class="text-black-30">2. Sam Poo Kong</p>

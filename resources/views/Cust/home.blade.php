@@ -58,11 +58,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -86,11 +86,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -114,11 +114,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -142,11 +142,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -170,11 +170,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -198,11 +198,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -226,11 +226,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">2 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">1 Malam</span>
 											</span>
 										</div>
 
@@ -254,11 +254,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 

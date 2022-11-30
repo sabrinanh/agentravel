@@ -42,13 +42,14 @@
             </div>
 
 
+
 <div class="container px-4 px-lg-5">
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-            <div class="col-lg-10" >
+            <div class="col-lg-14" >
                 <div class="card1 card-margin">
                     <div class="card-header no-border">
                         <h5 class="card-title">Pack (Bali Tour Package)</h5>
@@ -82,6 +83,7 @@
         </div>
     </div>
 </div>
+>>>>>>> b803ac8cba32d2f26bb30f5648d19e143a91d059
 
 </main>
 @endsection

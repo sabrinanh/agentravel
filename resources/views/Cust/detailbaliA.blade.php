@@ -42,7 +42,7 @@
 
 				<div class="col-lg-5">
 					<h2 class="heading text-primary">Rp. 950.000 /pax</h2>
-					<p class="meta">California, United States</p>
+					<p class="meta">3 Hari 2 Malam</p>
 					<h5 class="heading text-primary">Destinasi Wisata:</h5>
 					<p class="text-black-30">1. Desa Panglipuran</p>
 					<p class="text-black-30">2. Blangsinga</p>
@@ -150,4 +150,4 @@
 			</div> <!-- /.row -->
 
         </main>
-        @endsection
+@endsection
