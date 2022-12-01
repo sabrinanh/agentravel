@@ -13,9 +13,9 @@
                             <li class="nav-divider">
                                 Menu
                             </li>
-                            <!-- <li class="nav-item ">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="dashboardadm"><i class="fa fa-fw fa-user"></i>Karyawan</a>
-                            </li> -->
+                            </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="customer"><i class="fa fa-fw fa-users"></i>Customer</a>
                             </li>

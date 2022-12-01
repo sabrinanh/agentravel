@@ -266,7 +266,7 @@ Route::get('/pembayaran', function () {
 });
 
 Route::get('/dashboardadm', function () {
-    return view('admin.customer');
+    return view('admin.dashboardadm');
 });
 
 Route::get('/customer', function () {
