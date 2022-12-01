@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="css/tiny-slider.css">
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
+    
         
         <!-- ============================================================== -->
         <!-- wrapper  -->

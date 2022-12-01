@@ -260,3 +260,26 @@ Route::get('/editpaketbali', function () {
 Route::get('/pembayaran', function () {
     return view('cust.pembayaran');
 });
+
+Route::get('/dashboardadm', function () {
+    return view('admin.customer');
+});
+
+Route::get('/customer', function () {
+    return view('admin.customer');
+});
+Route::get('/pemesanan', function () {
+    return view('admin.pemesanan');
+});
+
+Route::get('/pendapatan', function () {
+    return view('admin.pendapatan');
+});
+
+Route::get('/profileadm', function () {
+    return view('admin.profileadm');
+});
+
+Route::get('/detailcust', function () {
+    return view('admin.detailcust');
+});
