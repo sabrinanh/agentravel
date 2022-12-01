@@ -259,4 +259,42 @@ Route::get('/editpaketbali', function () {
 
 Route::get('/accountadm', function () {
     return view('marketing.accountadm');
+
+Route::get('/pembayaran', function () {
+    return view('cust.pembayaran');
+});
+
+Route::get('/dashboardadm', function () {
+    return view('admin.customer');
+});
+
+Route::get('/customer', function () {
+    return view('admin.customer');
+});
+Route::get('/pemesanan', function () {
+    return view('admin.pemesanan');
+});
+
+Route::get('/pendapatan', function () {
+    return view('admin.pendapatan');
+});
+
+Route::get('/profileadm', function () {
+    return view('admin.profileadm');
+});
+
+Route::get('/detailcust', function () {
+    return view('admin.detailcust');
+});
+
+Route::get('/pembayaran1', function () {
+    return view('cust.pembayaran1');
+});
+
+Route::get('/pembayarantf', function () {
+    return view('cust.pembayarantf');
+});
+
+Route::get('/upload', function () {
+    return view('cust.upload');
 });
