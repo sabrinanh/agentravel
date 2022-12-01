@@ -283,3 +283,15 @@ Route::get('/profileadm', function () {
 Route::get('/detailcust', function () {
     return view('admin.detailcust');
 });
+
+Route::get('/pembayaran1', function () {
+    return view('cust.pembayaran1');
+});
+
+Route::get('/pembayarantf', function () {
+    return view('cust.pembayarantf');
+});
+
+Route::get('/upload', function () {
+    return view('cust.upload');
+});
