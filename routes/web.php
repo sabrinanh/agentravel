@@ -259,6 +259,7 @@ Route::get('/editpaketbali', function () {
 
 Route::get('/accountadm', function () {
     return view('marketing.accountadm');
+});
 
 Route::get('/pembayaran', function () {
     return view('cust.pembayaran');
