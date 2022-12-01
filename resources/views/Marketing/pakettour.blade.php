@@ -8,22 +8,15 @@
     <!-- main wrapper -->
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
-        
+
     <?php include 'marketing/includes/navbar.php' ?>
     <?php include 'marketing/includes/sidebar.php' ?>
-
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
-    
-        
+
         <!-- ============================================================== -->
         <!-- wrapper  -->
         <!-- ============================================================== -->
-        <div class="dashboard-wrapper">
+        <div class="dashboard-wrapper" style="background-color: #EFEFF6">
             <div class="container-fluid  dashboard-content">
                 <!-- ============================================================== -->
                 <!-- pageheader -->
@@ -46,7 +39,6 @@
                 <!-- ============================================================== -->
                 <!-- end pageheader -->
                 <!-- ============================================================== -->
-                <div class="section section-properties">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -76,10 +68,10 @@
 									</div>
 								</div>
 
-                            
-                                
-                                
-						
+
+
+
+
 					</div> <!-- .item -->
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -142,7 +134,7 @@
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
-    
+
 </body>
- 
+
 </html>

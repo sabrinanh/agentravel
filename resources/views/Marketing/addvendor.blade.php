@@ -8,10 +8,10 @@
     <!-- main wrapper -->
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
-        
+
     <?php include 'marketing/includes/navbar.php' ?>
     <?php include 'marketing/includes/sidebar.php' ?>
-        
+
         <!-- ============================================================== -->
         <!-- wrapper  -->
         <!-- ============================================================== -->
@@ -61,6 +61,20 @@
                                                         <label for="lastName">Nomor Telp</label>
                                                         <input type="text" class="form-control" placeholder="" value="" required="">
                                                     </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="lastName">Kategori</label>
+                                                        <select name="kategori" class="custom-select d-block w-100" id="state" required="">
+                                                            <option value="">Choose...</option>
+                                                            <option>Restaurant</option>
+                                                            <option>Hotel</option>
+                                                            <option>Transportasion</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="lastName">Email</label>
+                                                        <input type="text" class="form-control" placeholder="" value="" required="">
+                                                    </div>
+
                                                     <!-- <div class="col-md-6 mb-3">
                                                         <label for="lastName">Contact</label>
                                                         <input type="text" class="form-control" placeholder="" value="" required="">
@@ -74,7 +88,7 @@
                                                         <input type="password" class="form-control" placeholder="" value="" required="">
                                                     </div>
                                                 </div> -->
-                                                
+
                                                 <!-- <div class="form-group row text-right">
                                                     <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
                                                         <button type="submit" class="btn btn-space btn-primary">Submit</button>
@@ -86,7 +100,7 @@
                                                <a href="#" class="btn btn-primary " aria-current="page">Submit</a>
                                               <a href="#" class="btn btn-secondary">Cancel</a><td>
                                               </div>
-                                               
+
                                             </form>
                                         </div>
                                     </div>
@@ -97,9 +111,11 @@
 
 
             </div>
-            
+
         </div>
     </div>
+
+   
     <!-- ============================================================== -->
     <!-- end main wrapper -->
     <!-- ============================================================== -->
@@ -109,7 +125,7 @@
     <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="../assets/vendor/multi-select/js/jquery.multi-select.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
-    
+
 </body>
- 
+
 </html>
