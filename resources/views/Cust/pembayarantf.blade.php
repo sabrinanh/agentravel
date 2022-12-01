@@ -53,10 +53,10 @@
             <div class="col-lg-10" >
                 <div class="card1 card-margin">
                     <div class="card-header no-border">
-                        <h5 class="card-title"><b>Sudah Menyelesaikan Transaksi?</b></h5>
+                        <h5 class="card-title"><b>Menunggu Bukti Pembayaran</b></h5>
                     </div>
-                    <a class="form-control3" id="formGroupExampleInput">Setelah pembayaran Anda dikonfirmasi, kami akan mengirim bukti pembelian kepada anda</a>
-                    <a href="pembayarantf" class="btn btn-primary gap-2 col-10 mx-auto5"><b>Saya Sudah Bayar</b></a>
+                    <p class="form-control3" id="formGroupExampleInput">Maaf, pembayaran Anda tidak dapat diverifikasi secara otomatis, Mohon unggah bukti pembayaran Anda agar kami dapat memverifikasi secara manual.</p>
+                    <a href="upload" class="btn btn-primary gap-2 col-10 mx-auto5"><b>Unggah Bukti Bayar</b></a>
                     </div>
 
                 </div>

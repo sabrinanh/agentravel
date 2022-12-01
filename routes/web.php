@@ -268,3 +268,7 @@ Route::get('/pembayaran1', function () {
 Route::get('/pembayarantf', function () {
     return view('cust.pembayarantf');
 });
+
+Route::get('/upload', function () {
+    return view('cust.upload');
+});
