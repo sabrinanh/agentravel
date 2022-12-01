@@ -256,3 +256,7 @@ Route::get('/inforajaampat', function () {
 Route::get('/editpaketbali', function () {
     return view('marketing.editpaketbali');
 });
+
+Route::get('/accountadm', function () {
+    return view('marketing.accountadm');
+});
