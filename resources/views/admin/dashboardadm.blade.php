@@ -24,7 +24,7 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h3 class="mb-2"><i class="fa fa-fw fa-user"></i>Karyawan</h3>
+                                <h3 class="mb-2"><i class="fa fa-fw fa-user"></i>Add Karyawan</h3>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
@@ -43,13 +43,13 @@
   <div class="row mb-3">
     <label for="inputnama" class="col-sm-2 col-form-label">Nama Lengkap</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputnama">
+      <input type="" class="form-control" id="inputnama">
     </div>
   </div>
   <div class="row mb-3">
     <label for="inputemail" class="col-sm-2 col-form-label">Email</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputemail">
+      <input type="email" class="form-control" id="inputemail">
     </div>
   </div>
   <div class="row mb-3">
@@ -61,36 +61,30 @@
   <div class="row mb-3">
     <label for="inputnomor" class="col-sm-2 col-form-label">No.Telp</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputnomor">
+      <input type="" class="form-control" id="inputnomor">
     </div>
   </div>
   <div class="row mb-3">
     <label for="inputalamat" class="col-sm-2 col-form-label">Alamat</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputalamat">
-    </div>
-  <!-- </div>
-  <div class="row mb-3">
-    <label for="inputjabatan" class="col-sm-2 col-form-label-select">Jabatan</label>
+      <input type="" class="form-control" id="inputalamat">
+</div>
+</div>
+<div class="row mb-3">
+    <label for="inputalamat" class="col-sm-2 col-form-label">Jabatan</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputjabatan">
-    </div> -->
+      <input type="" class="form-control" id="inputalamat">
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected>pilih jabatan</option>
+  <option value="1">Admin</option>
+  <option value="2">Marketing</option>
+</select>
+ 
+
     </div>
   <button type="submit-middle" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#simpan">Simpan</button>
-  <div class="modal" tabindex="-1"id="simpan">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+  
+</div>
     </div>
   </div>
 </div>

@@ -51,6 +51,8 @@
                                         <thead>
                                             <tr>
                                                 <th>Nama Vendor</th>
+                                                <th>Kategori Vendor</th>
+                                                <th>Email</th>
                                                 <th>Alamat</th>
                                                 <th>Nomor Telp</th>
                                                 <th>Action</th>
@@ -58,9 +60,11 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Airi Satou</td>
-                                                <td>airi@gmail.com</td>
-                                                <td>09809878978</td>
+                                                <td>The Amora Bali Restaurant</td>
+                                                <td>Restaurant</td>
+                                                <td>theamoraresto@gmail.com</td>
+                                                <td>Jl.Cendrawasih no 45</td>
+                                                <td>085627181526</td>
                                                 
                                                 <td class="align-right">
                                                     <a href="javascript:;" class="text-primary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit">
@@ -72,9 +76,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Angelica Ramos</td>
-                                                <td>angelica@gmail.com</td>
-                                                <td>09809878978</td>
+                                                <td>Padma Resort Ubud</td>
+                                                <td>Hotel</td>
+                                                <td>padmaresort@gmail.com</td>
+                                                <td>Jl.Nuri no 103</td>
+                                                <td>081278342516</td>
                                                 
                                                 <td class="align-right">
                                                     <a href="javascript:;" class="text-primary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit">
@@ -86,9 +92,43 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Ashton Cox</td>
-                                                <td>ashton@gmail.com</td>
-                                                <td>09809878978</td>
+                                                <td>Sauce Tree Restaurant</td>
+                                                <td>Restaurant</td>
+                                                <td>Saucetreeresto@gmail.com</td>
+                                                <td>Jl.Kakaktua no 78</td>
+                                                <td>082287351423</td>
+                                                
+                                                <td class="align-right">
+                                                    <a href="javascript:;" class="text-primary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit">
+                                                        <i class="fa fa-edit"></i>
+                                                    </a> |
+                                                    <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete">
+                                                        <i class="fa fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>The Westin Resort Nusa Dua</td>
+                                                <td>Hotel</td>
+                                                <td>thewestinresort@gmail.com</td>
+                                                <td>Jl.Jambu no 34</td>
+                                                <td>081872435672</td>
+                                                
+                                                <td class="align-right">
+                                                    <a href="javascript:;" class="text-primary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit">
+                                                        <i class="fa fa-edit"></i>
+                                                    </a> |
+                                                    <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Delete">
+                                                        <i class="fa fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Finns Beach Restaurant</td>
+                                                <td>Restaurant</td>
+                                                <td>finnsbeach@gmail.com</td>
+                                                <td>Jl.Macan no 52</td>
+                                                <td>082287331524</td>
                                                 
                                                 <td class="align-right">
                                                     <a href="javascript:;" class="text-primary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit">

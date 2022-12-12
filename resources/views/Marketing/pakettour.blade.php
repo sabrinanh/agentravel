@@ -56,11 +56,11 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
@@ -90,15 +90,15 @@
 										<div class="specs d-flex mb-4">
 											<span class="d-block d-flex align-items-center me-3">
 												<span class="icon-bed me-2"></span>
-												<span class="caption">2 beds</span>
+												<span class="caption">3 Hari</span>
 											</span>
 											<span class="d-block d-flex align-items-center">
 												<span class="icon-bath me-2"></span>
-												<span class="caption">2 baths</span>
+												<span class="caption">2 Malam</span>
 											</span>
 										</div>
 
-										<a href="detaillombok" class="btn btn-primary py-2 px-3">Edit</a>
+										<a href="" class="btn btn-primary py-2 px-3">Edit</a>
 									</div>
 								</div>
 					</div> <!-- .item -->
