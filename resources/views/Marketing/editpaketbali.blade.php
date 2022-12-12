@@ -111,18 +111,9 @@
         <div class="col-sm-10">
             <div class="col-sm-12" style="background-color:rgb(235, 238, 240);">
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Kota</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Bali</option>
-                      <option>Bandung</option>
-                      <option>Jogja</option>
-                      <option>Semarang</option>
-                      <option>Lombok</option>
-                      <option>Dieng</option>
-                      <option>Labuan Bajo</option>
-                      <option>Raja Ampat</option>
-                      <option>Karimun Jawa</option>
-                    </select>
+
+                    <label for="exampleFormControlSelect1">Provinsi</label>
+
                   </div>
 
             </form>
