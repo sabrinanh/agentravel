@@ -107,6 +107,7 @@
       </div>
     </div>
 
+<<<<<<< Updated upstream
     {{-- coba --}}
     <head>
       <meta charset="utf-8">
@@ -194,6 +195,15 @@
 
 
 
+=======
+                    <label class="col-sm-2 col-form-label" name="jenis_kelamin">Jenis Kelamin</label>
+                    <div class="col-sm-9">
+                      <select class="form-select" aria-label="Default select example" name="jenis_kelamin">
+                        <option selected>Pilih Provinsi</option>
+                        <option value="Perempuan">Perempuan</option>
+                        <option value="Laki-laki">Laki-Laki</option>
+                      </select>
+>>>>>>> Stashed changes
 
 
             </form>
