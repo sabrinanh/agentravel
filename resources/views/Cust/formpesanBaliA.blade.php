@@ -57,7 +57,7 @@
   <input type="text" class="form-control" id="formGroupExampleInput2">
 </div>
       </div>
-      <a href="#" class="btn btn-primary gap-2 col-5 mx-auto1">Tambah Peserta</a>
+      <a href="" class="btn btn-primary gap-2 col-5 mx-auto1">Tambah Peserta</a>
     </div>
 
       </div>

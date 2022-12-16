@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IndonesiaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -299,3 +300,10 @@ Route::get('/pembayarantf', function () {
 Route::get('/upload', function () {
     return view('cust.upload');
 });
+
+Route::get('indonesia', function() {
+    return view('marketing.editpaketbali');
+});
+
+Route::get('selectProv', [IndonesiaController::class, 'provinsi'])->name('provinsi');
+Route::get('selectRegenc/{id}', [IndonesiaController::class, 'regency']);

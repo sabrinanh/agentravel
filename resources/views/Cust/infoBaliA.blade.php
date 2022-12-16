@@ -83,7 +83,6 @@
         </div>
     </div>
 </div>
->>>>>>> b803ac8cba32d2f26bb30f5648d19e143a91d059
 
 </main>
 @endsection
