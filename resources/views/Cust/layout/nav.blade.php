@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
@@ -22,13 +22,13 @@
     {{-- icon bootsrap --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('fonts/flaticon/font/flaticon.css') }}">
 
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link href="assets/vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="{{ asset('css/tiny-slider.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/aos.css')}}">
+	<link rel="stylesheet" href="{{ asset('css/style.css')}}">
+    <link href="{{ asset('assets/vendor2/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
 
 	<title>Holidayz &mdash; </title>
 </head>
@@ -159,11 +159,11 @@
     </div>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('js/tiny-slider.js')}}"></script>
+    <script src="{{ asset('js/aos.js')}}"></script>
+    <script src="{{ asset('js/navbar.js')}}"></script>
+    <script src="{{ asset('js/counter.js')}}"></script>
+    <script src="{{ asset('js/custom.js')}}"></script>
 </body>
 </html>

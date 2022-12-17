@@ -57,7 +57,7 @@
                                         <p>Biaya Layanan</p>
                                     </div>
                                     <div class="col-4">
-                                        <p>Rp20.000</p>
+                                        <p>{{($data->biaya_layanan)}}</p>
                                     </div>
                                 </div>
                                 <div class="row justify-content-between">
@@ -65,11 +65,11 @@
                                         <p>Kode Unik</p>
                                     </div>
                                     <div class="col-4">
-                                        <p>-Rp884</p>
+                                        <p>-{{($data->kode)}}</p>
                                     </div>
                                 </div>
                             </div>
-                            <a href="pembayarantf" class="btn btn-primary gap-2 col-10 mx-auto4">Bayar dengan transfer BCA</a>
+                            <a href="pembayarantf" class="btn btn-primary gap-2 col-10 mx-auto4">Bayar dengan {{($data->nama)}}</a>
                         </div>
                         </div>
                         <div class="accordion-item">

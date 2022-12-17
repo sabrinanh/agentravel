@@ -32,283 +32,35 @@
 					<p><a href="tourpackages" target="_blank" class="btn btn-primary text-white py-3 px-4">View all destination</a></p>
 				</div>
 			</div>
-			<div class="row">
 
-				<div class="col-12">
+            <div class="card-group">
+                @foreach ($ptours as $ptours)
+                <div class="card m-2"  border: 1px solid blue>
+                  <img class="card-img-top"  width="200" src="{{ $ptours->img }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="price mb-2" style="color: #005555"><span><b>Rp {{number_format($ptours->harga )}} /pax</b></h5>
+                    <h5 class="card-title"><b>{{$ptours->nama}}</b></h5>
+                    <p class="card-text">{{($ptours->hari)}} hari {{($ptours->malam)}} malam</p>
+                    <a href="{{ url('detail')}}/{{ $ptours->id }}" class="btn btn-primary">See Details</a>
+                  </div>
+                </div>
+                @endforeach
+            </div>
 
+            {{-- @foreach ($ptours as $p)
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{ $p->img }}" class="card-img-top" alt="...">
+                        <div>
+                        <div class="card-body">
+                        <h5 class="price mb-2" style="color: #005555"><span><b>Rp {{number_format($p->harga )}} /pax</b></h5>
+                          <h5 class="card-title"><b>{{$p->nama}}</b></h5>
+                          <p class="card-text">{{($p->hari)}} hari {{($p->malam)}} malam</p>
 
-					<div class="property-slider-wrap">
+                          <a href="{{ url('detail')}}/{{ $p->id }}" class="btn btn-primary">See Details</a>
+                        </div>
+                    </div>
+            @endforeach --}}
 
-
-
-						<div class="property-slider">
-
-							<div class="property-item">
-
-								<a href="detailbali" class="img">
-									<img src="images/Bali2.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 950.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Bali A</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">3 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">2 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailbaliA" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detaillombok" class="img">
-									<img src="images/lombok2.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 1.500.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Lombok</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">3 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">2 Malam</span>
-											</span>
-										</div>
-
-										<a href="detaillombok" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detailbandung" class="img">
-									<img src="images/bandung.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 750.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Bandung</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">2 hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">1 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailbandung" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detailmalang" class="img">
-									<img src="images/malang.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 450.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Malang A</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">2 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">1 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailmalangA" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detaildieng" class="img">
-									<img src="images/Dieng.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 699.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Dieng</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">2 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">1 Malam</span>
-											</span>
-										</div>
-
-										<a href="detaildieng" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detailkarimun" class="img">
-									<img src="images/karimun.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 850.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Karimun Jawa</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">3 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">2 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailkarimun" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detailsemarang" class="img">
-									<img src="images/semarang.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 700.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Semarang A</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">2 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">1 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailsemarangA" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="detaillabuan" class="img">
-									<img src="images/laboanbajo2.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 750.000 /pax</span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Labuan Bajo</span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">3 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">2 Malam</span>
-											</span>
-										</div>
-
-										<a href="detaillabuan" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-							<div class="property-item">
-
-								<a href="" class="img">
-									<img src="images/rajaampat.jpg" alt="Image" class="img-fluid">
-								</a>
-
-								<div class="property-content">
-									<div class="price mb-2"><span>Rp 3.999.999 /pax </span></div>
-									<div>
-										<span class="d-block mb-2 text-black-50"></span>
-										<span class="city d-block mb-3">Raja Ampat</span>
-										<span class="city d-block mb-3"></span>
-
-										<div class="specs d-flex mb-4">
-											<span class="d-block d-flex align-items-center me-3">
-												<span class="icon-bed me-2"></span>
-												<span class="caption">3 Hari</span>
-											</span>
-											<span class="d-block d-flex align-items-center">
-												<span class="icon-bath me-2"></span>
-												<span class="caption">2 Malam</span>
-											</span>
-										</div>
-
-										<a href="detailrajaampat" class="btn btn-primary py-2 px-3">See details</a>
-									</div>
-								</div>
-							</div> <!-- .item -->
-
-
-						</div>
-
-
-						<div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
-							<span class="prev" data-controls="prev" aria-controls="property" tabindex="-1">Prev</span>
-							<span class="next" data-controls="next" aria-controls="property" tabindex="-1">Next</span>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
 		</div>
 	</div>
 

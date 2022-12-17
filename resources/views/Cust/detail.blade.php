@@ -3,18 +3,18 @@
 <main id = "main"class="main">
 
 
-	<div class="hero page-inner overlay" style="background-image: url('images/balibg.jpg');">
+	<div class="hero page-inner overlay" style="background-image: url('{{ asset($ptours->img) }}')">
 
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-9 text-center mt-5">
-					<h1 class="heading" data-aos="fade-up">Bali Tour Package</h1>
+					<h1 class="heading" data-aos="fade-up">{{$ptours->nama }}</h1>
 
 					<nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
 						<ol class="breadcrumb text-center justify-content-center">
 							<li class="breadcrumb-item "><a href="home">Home</a></li>
 							<li class="breadcrumb-item "><a href="tourpackages">Tour Packages</a></li>
-							<li class="breadcrumb-item active text-white-50" aria-current="page">Bali Tour Package</li>
+							<li class="breadcrumb-item active text-white-50" aria-current="page">{{$ptours->nama }}</li>
 						</ol>
 					</nav>
 
@@ -33,9 +33,9 @@
 				<div class="col-lg-6">
 					<div class="img-property-slide-wrap">
 						<div class="img-property-slide">
-							<img src="images/bali1.jpg" alt="Image" class="img-fluid">
-							<img src="images/bali2.jpg" alt="Image" class="img-fluid">
-							<img src="images/bali3.jpg" alt="Image" class="img-fluid">
+							<img src="{{ asset("$ptours->img") }}" alt="Image" class="img-fluid">
+							<img src="{{ asset("$ptours->img") }}" alt="Image" class="img-fluid">
+							<img src="{{ asset("$ptours->img") }}" alt="Image" class="img-fluid">
 						</div>
 					</div>
 				</div>
@@ -44,30 +44,12 @@
 					<h2 class="heading text-primary">Rp {{number_format($ptours->harga )}} /pax</h2>
 					<p class="meta">{{($ptours->hari)}} hari {{($ptours->malam)}} malam</p>
 					<h5 class="heading text-primary">Destinasi Wisata:</h5>
-					<p class="text-black-30">1. Desa Panglipuran</p>
-					<p class="text-black-30">2. Blangsinga</p>
-					<p class="text-black-30">3. Pantai Pandawa</p>
-					<p class="text-black-30">4. Pantai Kuta</p>
-					<p class="text-black-30">5. Tanah Lot</p>
-					<p class="text-black-30">6. Dreamland</p>
-					<p class="text-black-30">7. Puja Mandala</p>
-					<p class="text-black-30">8. Cening Bagus</p>
-					<p class="text-black-30">9. Krisna</p>
-					<p class="text-black-30">10. Dewata </p>
+					<p class="text-black-30">{{($ptours->destinasi)}}</p>
 
 					<h5 class="heading text-primary">Fasilitas Tour:</h5>
-					<p class="text-black-30">1. Transportasi Bus Pariwisata</p>
-					<p class="text-black-30">2. BIG BUS seat 2-2 / 48</p>
-					<p class="text-black-30">3. Hotel 2 Malam (1 kamar isi 2-3 orang)</p>
-					<p class="text-black-30">4. Tiket Masuk Wisata</p>
-					<p class="text-black-30">5. Makan 8x prasmanan</p>
-					<p class="text-black-30">6. Snack 1x</p>
-					<p class="text-black-30">7. Air Mineral botol</p>
-					<p class="text-black-30">8. Free Dokumentasi softcopy</p>
-					<p class="text-black-30">9. Free Tol Parkir</p>
-					<p class="text-black-30">10. Tour Leader & Tour Guide Lokal</p>
+					<p class="text-black-30">{{($ptours->fasilitas)}}</p>
 
-					<a href="infoBaliA" class="btn btn-primary py-2 px-3">Pesan</a>
+					<a href="{{ url('info')}}/{{ $ptours->id }}" class="btn btn-primary py-2 px-3">Pesan</a>
 
 
 					<!-- <div class="d-block agent-box p-5">
@@ -126,7 +108,7 @@
 							<li><a href="#">FAQ</a></li>
 							<li><a href="#">Creative</a></li>
 						</ul>
-					</div> <!-- /.widget -->
+					</div>  /.widget -->
 				</div> <!-- /.col-lg-4 -->
 				<!-- <div class="col-lg-4">
 					<div class="widget">

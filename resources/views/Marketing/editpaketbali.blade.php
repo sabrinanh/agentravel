@@ -62,19 +62,18 @@
 <div class="container">
   <main>
     <div class="py-5 text-center">
-        <td><img src="images/Bali2.jpg" alt="" style="width: 200px; height: 190px;"></td>
       <p class="lead"></p>
-
-      <form>
+<form action="/editpaketbali" method="POST">
+    @csrf
         <div class="mt-2">
           <button class="btn btn-primary" type="button">
             <i class="fa fa-fw fa-camera"></i>
             <span>Change Photo</span>
             <div class="form-floating mb-0.9">
-                <input type="file" class="form-control" id="file">
+                <input type="file" class="form-control" id="file" name="img">
             </div>
           </button>
-          </form>
+
         </div>
       </div>
       <div class="text-center text-sm-right">
@@ -82,148 +81,168 @@
 
     </div>
 
-<div class="form-group row">
-    <label for="namatour" class="col-sm-2 col-form-label">Nama Tour</label>
-    <div class="col-sm-10">
-        <input type="text" class="form-control" placeholder="" value="" required="">
-    </div>
-    </div>
     <div class="form-group row">
-        <label for="hargatour" class="col-sm-2 col-form-label">Harga Tour</label>
+        <label for="namatour" class="col-sm-2 col-form-label">Nama Tour</label>
         <div class="col-sm-10">
-        <input type="text" class="form-control" placeholder="" value="" required="">
-    </div>
-    </div>
-    <div class="form-group row">
-        <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
-          <div class="col-sm-10">
-            <input type="date" class="form-control">
-          </div>
-    </div>
-    <div class="form-group row">
-        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan Tour</label>
-        <div class="col-sm-10">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </div>
-    <div class="form-group row">
-        <label for="Kotatujuan" class="col-sm-2 col-form-label">Kota Tujuan</label>
-        <div class="col-sm-10">
-            <div class="col-sm-12" style="background-color:rgb(235, 238, 240);">
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Kota</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>Bali</option>
-                      <option>Bandung</option>
-                      <option>Jogja</option>
-                      <option>Semarang</option>
-                      <option>Lombok</option>
-                      <option>Dieng</option>
-                      <option>Labuan Bajo</option>
-                      <option>Raja Ampat</option>
-                      <option>Karimun Jawa</option>
+            <input type="text" class="form-control" placeholder="" value="" required="" name="nama">
+        </div>
+        </div>
+        <div class="form-group row">
+            <label for="hargatour" class="col-sm-2 col-form-label">Harga Tour</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="" value="" required="" name="harga">
+        </div>
+        </div>
+        <div class="form-group row">
+            <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" name="tanggal">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="keterangan" class="col-sm-2 col-form-label">Keterangan Tour</label>
+            <div class="col-sm-10">
+            <textarea class="form-control" name="keterangan" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        </div>
+
+        {{-- coba --}}
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Select2 Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="container">
+        </div>
+        <div class="form-group row">
+            <label for="tujuan" class="col-sm-2 col-form-label" name="kota">Tujuan Tour</label>
+            <div class="col-sm-10">
+            <div class='mt-2'>
+                <div class='mb-2'>
+                    <label> Kota</label>
+                    <select name="kota" class="form-control">
+                        <option value="">== Select City ==</option>
+                        <option value="Malang">Malang</option>
+                        <option value="Bali">Bali</option>
+                        <option value="Lombok">Lombok</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Bandung">Bandung</option>
                     </select>
-                  </div>
+                </div>
 
-            </form>
-            <div class="col-12">
-            <div class="form-group">
             </div>
-                <label for="restaurant"class="font-weight-bold">Restaurant</label>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    The Amora Bali Restaurant
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    The Loft Restaurant
-                </label>
-              </div>
-              <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Sauce Tree Restaurant
-                </label>
+        </div>
+
+        {{-- @push('scripts') --}}
+    {{-- <script>
+    $(function () {
+        $('#province').on('change', function () {
+            axios.post('{{ route('editpaketbali.store') }}', {id: $(this).val()})
+                .then(function (response) {
+                    $('#city').empty();
+                    $.each(response.data, function (id, name) {
+                        $('#city').append(new Option(name, id))
+                    })
+                });
+        });
+    });
+    </script>
+    @endpush --}}
+
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        The Loft Restaurant
+                    </label>
                 </div>
                 <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Finns Beach Restaurant
-                </label>
-                 </div>
-                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                 <label class="form-check-label" for="defaultCheck2">
-                    Milu By Nook Restaurant
-                </label>
-            </div>
-           </form>
-       </div>
-   </form>
-            <div class="col-12">
-            <div class="form-group">
-            </div>
-                <label for="hotel"class="font-weight-bold">Hotel</label>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Four Seasons Resort Bali, Sayan
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Ritz-Carlton Bali
-                </label>
-              </div>
-              <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Padma Resort Ubud
-                </label>
+                    <label class="form-check-label" for="defaultCheck2">
+                        Sauce Tree Restaurant
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Finns Beach Restaurant
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Milu By Nook Restaurant
+                    </label>
+                </div>
+
+        </div>
+
+                <div class="col-12">
+                <div class="form-group">
+                </div>
+                    <label for="hotel"class="font-weight-bold">Hotel</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Four Seasons Resort Bali, Sayan
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Ritz-Carlton Bali
+                    </label>
                 </div>
                 <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Bali Dynasty Resort
-                </label>
-                 </div>
-                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                 <label class="form-check-label" for="defaultCheck2">
-                    The Westin Resort Nusa Dua
-                </label>
-                 </div>
-                </form>
+                    <label class="form-check-label" for="defaultCheck2">
+                        Padma Resort Ubud
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Bali Dynasty Resort
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        The Westin Resort Nusa Dua
+                    </label>
+                    </div>
+
+                </div>
+
+            <div class="col-12">
+                <div class="form-group">
+                    <label for="Transportasion" class="font-weight-bold">Transportasion</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Big Bus
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Medium Bus
+                    </label>
+                </div>
+                </div>
+                <td><a class="btn-group">
+            <button type="submit" class="btn btn-primary " aria-current="page">Submit</button>
+            <a href="#" class="btn btn-secondary">Cancel</a><td>
             </div>
-        </form>
-        <div class="col-12">
-            <div class="form-group">
-                <label for="Transportasion" class="font-weight-bold">Transportasion</label>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Big Bus
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                <label class="form-check-label" for="defaultCheck2">
-                    Medium Bus
-                </label>
-              </div>
-            </div>
-            <td><a class="btn-group">
-           <a href="#" class="btn btn-primary " aria-current="page">Submit</a>
-          <a href="#" class="btn btn-secondary">Cancel</a><td>
-          </div>
 
 
-
-
+</form>
 
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1"></p>
