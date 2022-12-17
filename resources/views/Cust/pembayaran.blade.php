@@ -35,22 +35,15 @@
                             <i><i class="bi bi-credit-card-fill"></i></i>Transfer
                             </button>
                         </h2>
+                        @foreach ($data as $data)
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="mb-4">
-                                    <a href="pembayaran1" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bca1.jpg">  Transfer BCA</a>
-                                  </div>
-                                <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bri.jpg">  Transfer BRI</a>
-                                 </div>
-                                 <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/bni.jpg">  Transfer BNI</a>
-                                  </div>
-                                  <div class="mb-4">
-                                    <a href="formpesanBaliA" type="text" class="form-control" id="formGroupExampleInput"><img src="../assets/images/mandiri.jpg">  Transfer Mandiri</a>
+                                    <a href="pembayaran1" type="text" class="form-control" id="formGroupExampleInput"><img src="{{ $data>img }}">{{($data->nama)}}</a>
                                   </div>
                             </div>
                         </div>
+                        @endforeach
                         </div>
                         <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">

@@ -35,7 +35,7 @@
                         <div class="widget-49 widget-49-meeting-points">
                                 <p class="widget-49-meeting-item"><span><b>PT. Holidayz Sejahtera</b></span></p>
                                 <div class="mb-4">
-                                    <a class="form-control2" id="formGroupExampleInput">087 888 2211</a>
+                                    <a class="form-control2" id="formGroupExampleInput">{{($data->norek)}}</a>
                                   </div>
                                 <p class="widget-49-meeting-item"><span><b>Jumlah Bayar</b></span></p>
                                 <div class="mb-4">

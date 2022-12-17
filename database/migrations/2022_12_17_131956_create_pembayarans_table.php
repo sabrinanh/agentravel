@@ -13,18 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('ptours', function (Blueprint $table) {
+        Schema::create('pembayarans', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->integer('harga');
-            $table->date('tanggalb');
-            $table->date('tanggalp');
-            $table->text('destinasi');
-            $table->text('fasilitas');
+            $table->integer('norek');
             $table->string('img');
-            $table->enum('kota', ['Malang', 'Bali', 'Lombok', 'Semarang', 'Bandung']);
-            $table->integer('hari');
-            $table->integer('malam');
+            $table->integer('biaya_layanan');
+            $table->integer('kode');
             $table->timestamps();
         });
     }
@@ -36,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ptours');
+        Schema::dropIfExists('pembayarans');
     }
 };

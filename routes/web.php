@@ -1,7 +1,13 @@
 <?php
 
-use App\Http\Controllers\IndonesiaController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InfoController;
+use App\Http\Controllers\PtourController;
+use App\Http\Controllers\PesananController;
+use App\Http\Controllers\IndonesiaController;
+use App\Http\Controllers\PembayaranController;
+use App\Http\Controllers\DependentDropdownController;
 
 /*
 |--------------------------------------------------------------------------
@@ -254,17 +260,12 @@ Route::get('/inforajaampat', function () {
     return view('cust.inforajaampat');
 });
 
-Route::get('/editpaketbali', function () {
-    return view('marketing.editpaketbali');
-});
+
 
 Route::get('/accountadm', function () {
     return view('marketing.accountadm');
 });
 
-Route::get('/pembayaran', function () {
-    return view('cust.pembayaran');
-});
 
 Route::get('/dashboardadm', function () {
     return view('admin.dashboardadm');
@@ -307,3 +308,19 @@ Route::get('indonesia', function() {
 
 Route::get('selectProv', [IndonesiaController::class, 'provinsi'])->name('provinsi');
 Route::get('selectRegenc/{id}', [IndonesiaController::class, 'regency']);
+
+// Route::get('/editpaketbali', [DependentDropdownController::class, 'index'])->name('editpaketbali.index');
+// Route::post('/editpaketbali', [DependentDropdownController::class,'store'])->name('editpaketbali.store');
+
+Route::get('/editpaketbali', [PtourController::class, 'index']);
+Route::post('/editpaketbali', [PtourController::class, 'create']);
+Route::post('/editpaketbali', [PtourController::class, 'store']);
+Route::post('/pakettour', [PtourController::class, 'view']);
+Route::get('/home', [HomeController::class, 'index']);
+Route::get('/detail/{id}', [PesananController::class, 'index']);
+Route::get('/info/{id}', [InfoController::class, 'index']);
+Route::post('/formpesan', [InfoController::class, 'storeData']);
+Route::get('/formpesanA', [InfoController::class, 'view']);
+Route::get('/pembayaran', [PembayaranController::class, 'storeData']);
+Route::post('/pembayaran', [PembayaranController::class, 'view']);
+Route::post('/pembayaran/{id}', [PembayaranController::class, 'lihat']);

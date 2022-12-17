@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\ptour;
+use Illuminate\Http\Request;
 use App\Http\Requests\StoreptourRequest;
 use App\Http\Requests\UpdateptourRequest;
 
@@ -13,9 +14,13 @@ class PtourController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
+    public function index() {
+        return view('marketing.editpaketbali');
+    }
+
+    public function view(){
+    $data = ptour::all();
+    return view('Markting/pakettour', compact('data'));
     }
 
     /**
@@ -25,7 +30,7 @@ class PtourController extends Controller
      */
     public function create()
     {
-        //
+        return view('marketing.pakettour');
     }
 
     /**
@@ -34,9 +39,15 @@ class PtourController extends Controller
      * @param  \App\Http\Requests\StoreptourRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreptourRequest $request)
+    public function store(Request $request)
     {
-        //
+        $data = ptour::create($request->except('_token', 'submit'));
+
+        if($request->hasFile('img')){
+            $request->file('img')->move('fototour/', $request->file('img')->getClientOriginalName());
+            $data->img = $request->file('img')->getClientOriginalName();
+            $data->save();
+        }
     }
 
     /**
