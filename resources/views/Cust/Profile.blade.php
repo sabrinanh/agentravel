@@ -67,26 +67,29 @@
 </div>
 </div>
 
+<div class="container-fluid pt-4 px-4" style="background-image: url('images/baliSignUp.jpg');">
+
 <div class="section">
 <div class="row justify-content-center">
-				<div class="col-md-4 text-center mb-12">
+				<div class="col-md-12 text-center mb-12">
 				</div>
 			</div>
+
 				<div class="col-lg-12">
 					<div class="wrap d-md-flex">
-						<div class="text-wrap p-4 p-lg-5 d-flex img d-flex align-items-end" style="background-image: url('images/baliSignUp.jpg');">
+						
                         <div class="container-fluid pt-4 px-4">
                             <div class="row gutters">
                             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                            <div class="card h-100">
+                            <div class="card h-100-primary">
 	                        <div class="card-body">
 	                    	<div class="account-settings">
 		                	<div class="user-profile">
 		            		<div class="user-avatar">
-				        	<img src="images/person_4-min.jpg" alt="" style="width: 80px; height: 80px;">
+				        	<img src="images/person_4-min.jpg" alt="" style="width: 300px; height: 300px;">
 				            </div>
-				            <h5 class="user-name"></h5>
-                            <h5 class="user-name">Stephanie Josh</h5>
+				            <h5 class="user-name text-center"></h5>
+                            <h5 class="user-name text-center">Stephanie Josh</h5>
 			                </div>
 		                    </div>
 	                        </div>
@@ -95,66 +98,59 @@
                             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
                             <div class="card h-100">
 	                        <div class="card-body">
+							<div class="container-fluid pt-4 px-4">			
 		<div class="row gutters">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-				<h6 class="mb-2 text-primary">Personal Info</h6>
+				<h6><b class="mb-2 text-primary">Edit Personal Information</b></h6>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+			
+				<div class="form-group">
+					<label for="profilepict">Profile Picture</label>
+					
+				<div class="input-group mb-3">
+  			<input type="file" class="form-control" id="inputGroupFile02">
+  			<!-- <label class="input-group-text" for="inputGroupFile02">Upload</label> -->
+			</div>
+			
 				<div class="form-group">
 					<label for="fullName">Full Name</label>
 					<input type="text" class="form-control" id="fullName" placeholder="">
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+			
 				<div class="form-group">
-					<label for="eMail">Username</label>
-					<input type="email" class="form-control" id="eMail" placeholder="">
+					<label for="Email">Email Adress</label>
+					<input type="text" class="form-control" id="email" placeholder="">
 				</div>
+			
+
+			<div class="form-group">
+					<label for="number">Phone Number</label>
+					<input type="text" class="form-control" id="number" placeholder="+62 ">
+				</div>
+				
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class="row gutters">
+				<h6><b class="mb-2 text-primary">Edit Password</h6></b>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+			
 				<div class="form-group">
-					<label for="phone">Phone Number</label>
-					<input type="text" class="form-control" id="phone" placeholder="">
+					<label for="old">Old Password</label>
+					<input type="text" class="form-control" id="old" placeholder="">
 				</div>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+
 				<div class="form-group">
-					<label for="website">Password</label>
-					<input type="url" class="form-control" id="website" placeholder="">
+					<label for="new">New Password</label>
+					<input type="text" class="form-control" id="new" placeholder="">
 				</div>
-			</div>
-		</div>
-		<!-- <div class="row gutters">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-				<h6 class="mt-3 mb-2 text-primary">Username</h6>
-			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+
 				<div class="form-group">
-					<label for="Street"></label>
-					<input type="name" class="form-control" id="Street" placeholder="">
+					<label for="confirm">Confirm Password</label>
+					<input type="text" class="form-control" id="old" placeholder="">
 				</div>
-			</div> -->
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-				<div class="form-group">
-					<label for="ciTy">Email Adress</label>
-					<input type="name" class="form-control" id="ciTy" placeholder="">
-				</div>
-			</div>
-			<!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-				<div class="form-group">
-					<label for="sTate">State</label>
-					<input type="text" class="form-control" id="sTate" placeholder="Enter State">
-				</div>
-			</div> -->
-			<!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-				<div class="form-group">
-					<label for="zIp">Zip Code</label>
-					<input type="text" class="form-control" id="zIp" placeholder="Zip Code">
-				</div>
-			</div>
-		</div> -->
-        <div class="container-fluid pt-4 px-4">
-		<div class="row gutters">
+
+				<div class="container-fluid pt-4 px-4">
+				<div class="row gutters">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 				<div class="text-right">
                 <a href="home"><button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>

@@ -21,6 +21,10 @@
     <script src="../assets/libs/js/dashboard-finance.js"></script>
     <!-- main js -->
     <script src="../assets/libs/js/main-js.js"></script>
+
+     <!-- main admin js -->
+     <script src="../assets/vendor/js/mainadmin.js"></script>
+
     <!-- gauge js -->
     <script src="../assets/vendor/gauge/gauge.min.js"></script>
     <!-- morris js -->

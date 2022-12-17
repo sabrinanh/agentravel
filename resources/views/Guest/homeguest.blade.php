@@ -49,22 +49,9 @@
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
 						<li class="active"><a href="homeguest">Home</a></li>
 						<li>
-							<a href="tourpackguest">Tour Packages</a>
-							<!-- <ul class="dropdown">
-								<li><a href="#">Buy Property</a></li>
-								<li><a href="#">Sell Property</a></li>
-								<li class="has-children">
-									<a href="#">Dropdown</a>
-									<ul class="dropdown">
-										<li><a href="#">Sub Menu One</a></li>
-										<li><a href="#">Sub Menu Two</a></li>
-										<li><a href="#">Sub Menu Three</a></li>
-									</ul>
-								</li>
-							</ul> -->
-						<!-- </li> -->
+						<a href="tourpackguest">Tour Packages</a>
 						<li><a href="aboutguest">About</a></li>
-						<!-- <li><a href="contact">Contact Us</a></li> -->
+						<li><a class="btn btn-success btn-sm" href="signIn" role="button">Sign In</a></li>
 					</ul>
 
 					<a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">

@@ -63,9 +63,9 @@
                                         <thead>
                                             <tr>
                                                 <th>ID Customer</th>
-                                                <th>No.Pesanan</th>
-                                                <th>Tanggal Tour</th>
                                                 <th>Nama Pelanggan</th>
+                                                <th>Role</th>
+                                                <th>Phone Number</th>
                                                 <th>Status</th>
                                                 <th>Konfirmasi Pembayaran</th>
                                                 <th>Detail Customer</th>
@@ -79,59 +79,14 @@
                                                 <td>10-11-2021</td>
                                                 <td>Budi Hartanto</td>
                                                 <td>Lunas</td>
-                                                <td><span class="badge bg-success text-white">Konfirmasi</span></td>
+                                                <td class="align-right">
+                                                <a href="custedit"><button class="btn btn-sm btn-success" type="submit">Konfirmasi</button>
                                                 <td class="align-right">
                                                 <a href="detailcust"><button class="btn btn-sm btn-success" type="submit">Detail</button>
                                     
                                                 </td>
                                             </tr>
-                                            <tr>
-                                            <td>CH0002</td>
-                                                <td>PH0002</td>
-                                                <td>16-11-2021</td>
-                                                <td>Michelle Anastasya</td>
-                                                <td>Lunas</td>
-                                                <td><span class="badge bg-success text-white">Konfirmasi</span></td>
-                                                <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Detail</button>
-                                               
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>CH0003</td>
-                                                <td>PH0003</td>
-                                                <td>21-11-2021</td>
-                                                <td>Rayhan Alatas</td>
-                                                <td>Lunas</td>
-                                                <td><span class="badge bg-success text-white">Konfirmasi</span></td>
-                                                <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Detail</button>
-                                               
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>CH0004</td>
-                                                <td>PH0004</td>
-                                                <td>30-11-2021</td>
-                                                <td>Dinda Farah</td>
-                                                <td>Lunas</td>
-                                                <td><span class="badge bg-success text-white">Konfirmasi</span></td>
-                                                <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Detail</button>
-                                               
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>CH0005</td>
-                                                <td>PH0005</td>
-                                                <td>2-12-2021</td>
-                                                <td>Bella Hadid</td>
-                                                <td>Lunas</td>
-                                                <td><span class="badge bg-success text-white">Konfirmasi</span></td>
-                                                <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Detail</button>
-                                              
-                                                </td>
+                                           
 
 
                                                 

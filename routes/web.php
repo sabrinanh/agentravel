@@ -272,6 +272,15 @@ Route::get('/dashboardadm', function () {
 Route::get('/customer', function () {
     return view('admin.customer');
 });
+
+Route::get('/custedit', function () {
+    return view('admin.custedit');
+});
+
+Route::get('/pesanedit', function () {
+    return view('admin.pesanedit');
+});
+
 Route::get('/pemesanan', function () {
     return view('admin.pemesanan');
 });

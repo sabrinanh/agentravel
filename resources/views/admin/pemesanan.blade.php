@@ -75,8 +75,8 @@
                                                 <td>12-12-21 10:30AM</td>
                                                 <td>>Enable</td>
                                                 <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Enable</button>
-                                                <button class="btn btn-sm btn-danger" type="submit">Disable</button>
+                                                <a href="pesanedit"><button class="btn btn-sm btn-success" type="submit">Change Status</button>
+                                              
                                                 </td>
                                             </tr>
                                             <tr>
@@ -85,8 +85,8 @@
                                                 <td>12-12-21 10:30AM</td>
                                                 <td>Enable</td>
                                                 <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Enable</button>
-                                                <button class="btn btn-sm btn-danger" type="submit">Disable</button>
+                                                <a href="pesanedit"><button class="btn btn-sm btn-success" type="submit">Change Status</button>
+                                              
                                                 </td>
                                             </tr>
                                             <tr>
@@ -95,8 +95,8 @@
                                                 <td>12-12-21 10:30AM</td>
                                                 <td>Disable</td>
                                                 <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Enable</button>
-                                                <button class="btn btn-sm btn-danger" type="submit">Disable</button>
+                                                <a href="pesanedit"><button class="btn btn-sm btn-success" type="submit">Change Status</button>
+                                                
                                                 </td>
                                             </tr>
                                             <tr>
@@ -105,8 +105,8 @@
                                                 <td>12-12-21 10:30AM</td>
                                                 <td>Disable</td>
                                                 <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Enable</button>
-                                                <button class="btn btn-sm btn-danger" type="submit">Disable</button>
+                                                <button class="btn btn-sm btn-success" type="submit">Change Status</button>
+                                               
                                                 </td>
                                             </tr>
                                             <tr>
@@ -115,8 +115,7 @@
                                                 <td>12-12-21 10:30AM</td>
                                                 <td>Enable</td>
                                                 <td class="align-right">
-                                                <button class="btn btn-sm btn-success" type="submit">Enable</button>
-                                                <button class="btn btn-sm btn-danger" type="submit">Disable</button>
+                                                <button class="btn btn-sm btn-success" type="submit">Change Status</button>
                                                 </td>
                                             </tr>
                                         </tbody>
